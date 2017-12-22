@@ -1,0 +1,15 @@
+fsharp.Classes/bin/
+fsharp.Classes/obj/
+fsharp.Composition/bin/
+fsharp.Composition/obj/
+fsharp.DataStructure/bin/
+fsharp.DataStructure/obj/
+fsharp.Modularization/bin/
+fsharp.Modularization/obj/
+packages
+*.dll
+bin
+obj
+suo
+.suo
+fsharp.practice.v12.suo
