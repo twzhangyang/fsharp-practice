@@ -65,6 +65,10 @@
     <None Include="WhyUseFsharp\Copy of Seamless.fsx" />
     <None Include="WhyUseFsharp\Copy of Tutorial.fsx" />
     <Compile Include="WhyUseFsharp\Copy of Types.fs" />
+    <None Include="ThinkingFunctionally\Copy of GenericTypes.fsx" />
+    <None Include="ThinkingFunctionally\Currying.fsx" />
+    <None Include="ThinkingFunctionally\Partial.fsx" />
+    <None Include="ThinkingFunctionally\functionComposition.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
