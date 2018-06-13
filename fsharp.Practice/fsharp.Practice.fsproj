@@ -69,6 +69,8 @@
     <None Include="ThinkingFunctionally\Currying.fsx" />
     <None Include="ThinkingFunctionally\Partial.fsx" />
     <None Include="ThinkingFunctionally\functionComposition.fsx" />
+    <Compile Include="Recursive\RecursiveTutorial.fs" />
+    <Compile Include="Recursive\Catamorphism.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
