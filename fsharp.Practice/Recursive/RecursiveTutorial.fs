@@ -1,4 +1,4 @@
-﻿module RecursiveTutorial =
+﻿module RecursiveTutorial
     type Book ={title:string; price:decimal}
 
     type ChocolateType = Dark | Milk | SeventyPercent
@@ -211,7 +211,7 @@
         // call the catamorphism
         cataGift fBook fChocolate fWrapped fBox fCard gift
 
-    birthdayPresent |> handleContents 
+    //birthdayPresent |> handleContents 
     (fun book -> "The book you wanted for your birthday") 
     (fun choc -> "Your fave chocolate")
 // Result => "The book you wanted for your birthday"

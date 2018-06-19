@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLibrary", "CSharpLibr
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp.Practice", "fsharp.Practice\fsharp.Practice.fsproj", "{B09BEF68-B173-43D6-9EB1-1B8D84371BD5}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fshapr.PropertyTests", "fshapr.PropertyTests\fshapr.PropertyTests.fsproj", "{3023E132-EC15-4E77-A684-2C368072D630}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B09BEF68-B173-43D6-9EB1-1B8D84371BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09BEF68-B173-43D6-9EB1-1B8D84371BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09BEF68-B173-43D6-9EB1-1B8D84371BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3023E132-EC15-4E77-A684-2C368072D630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3023E132-EC15-4E77-A684-2C368072D630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3023E132-EC15-4E77-A684-2C368072D630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3023E132-EC15-4E77-A684-2C368072D630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
