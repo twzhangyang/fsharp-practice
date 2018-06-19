@@ -5,8 +5,8 @@ open FsCheck.Xunit
 open Xunit
 
 [<Property>]
-let ``Dimond is non-empty`` (letter:string) =
+let ``Dimond is non-empty`` (letter:char) =
     let actual = Dimond.make letter
 
-    not (String.IsNullOrEmpty letter)
+    not (String.IsNullOrWhiteSpace actual)
 

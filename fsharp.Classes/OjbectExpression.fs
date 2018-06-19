@@ -1,6 +1,6 @@
 ﻿namespace fsharp.Classes
 
-type IAddingService=
+type IAddingService2=
     abstract member Add:int->int->int
 
 
@@ -25,7 +25,7 @@ module ObjectExpression=
 
 
     let makeAdder id=
-        {new IAddingService with
+        {new IAddingService2 with
             member this.Add x y=
                 printfn "Adder %i is adding" id
                 let result=x+y
