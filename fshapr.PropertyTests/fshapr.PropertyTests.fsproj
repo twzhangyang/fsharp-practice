@@ -6,11 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Game\Game.fs" />
+    <Compile Include="GameTests\GameTests.fs" />
     <Compile Include="Dimond.fs" />
     <Compile Include="DimondTests.fs" />
+    <Compile Include="PropertyTests.fs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Expecto" Version="8.1.1" />
+    <PackageReference Include="Expecto.FsCheck" Version="8.1.1" />
     <PackageReference Include="FsCheck.Xunit" Version="2.11.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
   </ItemGroup>
