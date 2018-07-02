@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ChoseProperties.fs" />
     <Compile Include="Game\Game.fs" />
     <Compile Include="GameTests\GameTests.fs" />
     <Compile Include="Dimond.fs" />
