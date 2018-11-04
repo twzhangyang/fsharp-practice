@@ -59,6 +59,25 @@
         <e p="Sequences.fs" t="Include" />
         <e p="Tuples.fs" t="Include" />
       </e>
+      <e p="fsharp.expert" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="chapter2" t="Include">
+          <e p="Chapter2Module.fs" t="Include" />
+        </e>
+        <e p="Chapter3" t="Include">
+          <e p="Chapter3Module.fs" t="Include" />
+        </e>
+        <e p="Chapter4" t="Include">
+          <e p="Chapter4Module.fs" t="Include" />
+        </e>
+        <e p="Chapter5" t="Include">
+          <e p="Chapter5Module.fs" t="Include" />
+        </e>
+        <e p="fsharp.expert.fsproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.fs" t="Include" />
+        <e p="Tests.fs" t="Include" />
+      </e>
       <e p="fsharp.Modularization" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="AssemblyInfo.fs" t="Include" />
