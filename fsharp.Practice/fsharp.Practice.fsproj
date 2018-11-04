@@ -60,16 +60,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="packages.config" />
-    <None Include="WhyUseFsharp\Copy of Classes.fsx" />
-    <None Include="WhyUseFsharp\Copy of Composed.fsx" />
-    <None Include="WhyUseFsharp\Copy of PatternMatching.fsx" />
-    <None Include="WhyUseFsharp\Copy of Exceptionhandling.fsx" />
-    <None Include="WhyUseFsharp\Copy of Measuretype.fsx" />
-    <None Include="WhyUseFsharp\Copy of ShoppingCart.fsx" />
-    <None Include="WhyUseFsharp\Copy of Seamless.fsx" />
-    <None Include="WhyUseFsharp\Copy of Tutorial.fsx" />
-    <Compile Include="WhyUseFsharp\Copy of Types.fs" />
-    <None Include="ThinkingFunctionally\Copy of GenericTypes.fsx" />
+    <None Include="WhyUseFsharp\Classes.fsx" />
+    <None Include="WhyUseFsharp\Composed.fsx" />
+    <None Include="WhyUseFsharp\PatternMatching.fsx" />
+    <None Include="WhyUseFsharp\Exceptionhandling.fsx" />
+    <None Include="WhyUseFsharp\Measuretype.fsx" />
+    <None Include="WhyUseFsharp\ShoppingCart.fsx" />
+    <None Include="WhyUseFsharp\Seamless.fsx" />
+    <None Include="WhyUseFsharp\Tutorial.fsx" />
+    <Compile Include="WhyUseFsharp\Types.fs" />
+    <None Include="ThinkingFunctionally\GenericTypes.fsx" />
     <None Include="ThinkingFunctionally\Currying.fsx" />
     <None Include="ThinkingFunctionally\Partial.fsx" />
     <None Include="ThinkingFunctionally\functionComposition.fsx" />

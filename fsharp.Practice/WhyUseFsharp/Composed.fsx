@@ -16,11 +16,4 @@
     let logMsg msg x = printfn "%s%i" msg x
     let logMsgN msg x = printfn "%s%i" msg x
 
-    let mult3ThenSquareLogged =
-        logMsg "before="
-        >> mult3
-        >> logMsg " after mult3="
-        >> square
-        >> logMsgN " result="
-
 

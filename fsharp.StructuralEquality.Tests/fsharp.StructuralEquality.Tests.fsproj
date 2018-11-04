@@ -73,20 +73,10 @@
     <None Include="Script.fsx" />
     <Compile Include="MessageTests.fs" />
     <None Include="packages.config" />
-    <Compile Include="Consumer.fs" />
-    <None Include="InteropCSharp.fsx" />
     <Compile Include="try.fs" />
-    <None Include="ProperyTesting.fsx" />
     <None Include="options.fsx" />
     <None Include="Seq.fsx" />
     <None Include="Query.fsx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CSharpLibrary\CSharpLibrary.csproj">
-      <Name>CSharpLibrary</Name>
-      <Project>{b994d2e1-5b08-4a5c-a15c-3d30c02b33c9}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

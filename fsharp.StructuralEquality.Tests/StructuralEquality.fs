@@ -23,7 +23,7 @@ module message=
         Email="richie2@163.com"
     }
 
-    user1=user2
+    user1=user2 |> ignore
 
     let user2'={
         UserId=Guid "BA8A7326-06DA-4430-B355-6D91C7355CD2"
@@ -31,8 +31,8 @@ module message=
         Password="password2"
         Email="richie2@163.com"
     }
-
-    user2=user2'
+ 
+    user2=user2' |> ignore
 
     type EmailVerified={
         UserId:Guid
@@ -52,19 +52,19 @@ module message=
     let userEvent2=UserCreated user2
     let userEvent2'=UserCreated user2'
 
-    userEvent1=userEvent2
-    userEvent2=userEvent2'
+    userEvent1=userEvent2 |> ignore
+    userEvent2=userEvent2' |> ignore
 
     let emailEvent=EmailVerified emailVerified
-    userEvent1=emailEvent
+    userEvent1=emailEvent |> ignore
 
-    [user1;user2]=[user1;user2]
+    [user1;user2]=[user1;user2]|> ignore
 
-    [|user1;user2|]=[|user1;user2|]
+    [|user1;user2|]=[|user1;user2|] |> ignore
 
     let ver1=Version(1,2)
     let ver2=Version(1,2)
 
-    ver1=ver2
+    ver1=ver2 |> ignore
 
 

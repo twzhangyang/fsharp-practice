@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="fshapr.PropertyTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChoseProperties.fs" t="Include" />
+        <e p="Dimond.fs" t="Include" />
+        <e p="DimondTests.fs" t="Include" />
+        <e p="fshapr.PropertyTests.fsproj" t="IncludeRecursive" />
+        <e p="Game" t="Include">
+          <e p="Game.fs" t="Include" />
+        </e>
+        <e p="GameTests" t="Include">
+          <e p="GameTests.fs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PropertyTests.fs" t="Include" />
+      </e>
+      <e p="fsharp.Classes" t="IncludeRecursive">
+        <e p="AssemblyInfo.fs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClassWithProperties.fs" t="Include" />
+        <e p="Constructing.fs" t="Include" />
+        <e p="CustomerName.fs" t="Include" />
+        <e p="DoBlockConstructor.fs" t="Include" />
+        <e p="fsharp.Classes.fsproj" t="IncludeRecursive" />
+        <e p="Inheritance.fs" t="Include" />
+        <e p="Interface.fs" t="Include" />
+        <e p="Lucy.fs" t="Include" />
+        <e p="MethodClass.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OjbectExpression.fs" t="Include" />
+        <e p="SecondaryConstructors.fs" t="Include" />
+        <e p="StaticClass.fs" t="Include" />
+        <e p="User.fs" t="Include" />
+      </e>
+      <e p="fsharp.Composition" t="IncludeRecursive">
+        <e p="AssemblyInfo.fs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Composition.fs" t="Include" />
+        <e p="fsharp.Composition.fsproj" t="IncludeRecursive" />
+        <e p="LambdaExpression.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Recursion.fs" t="Include" />
+      </e>
+      <e p="fsharp.DataStructure" t="IncludeRecursive">
+        <e p="AssemblyInfo.fs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DiscriminatedUnions.fs" t="Include" />
+        <e p="fsharp.DataStructure.fsproj" t="IncludeRecursive" />
+        <e p="Lists.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Options.fs" t="Include" />
+        <e p="RecordTypes.fs" t="Include" />
+        <e p="Sequences.fs" t="Include" />
+        <e p="Tuples.fs" t="Include" />
+      </e>
+      <e p="fsharp.Modularization" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="AssemblyInfo.fs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="fsharp.Modularization.fsproj" t="IncludeRecursive" />
+        <e p="NamespaceA.fs" t="Include" />
+        <e p="NamespaceB.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.fs" t="Include" />
+      </e>
+      <e p="fsharp.Practice" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="fsharp.Practice.fsproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Recursive" t="Include">
+          <e p="Catamorphism.fs" t="Include" />
+          <e p="RecursiveTutorial.fs" t="Include" />
+        </e>
+        <e p="ThinkingFunctionally" t="Include">
+          <e p="Currying.fsx" t="Include" />
+          <e p="functionComposition.fsx" t="Include" />
+          <e p="GenericTypes.fsx" t="Include" />
+          <e p="Partial.fsx" t="Include" />
+        </e>
+        <e p="WhyUseFsharp" t="Include">
+          <e p="Classes.fsx" t="Include" />
+          <e p="Composed.fsx" t="Include" />
+          <e p="Exceptionhandling.fsx" t="Include" />
+          <e p="Measuretype.fsx" t="Include" />
+          <e p="PatternMatching.fsx" t="Include" />
+          <e p="Seamless.fsx" t="Include" />
+          <e p="ShoppingCart.fsx" t="Include" />
+          <e p="Tutorial.fsx" t="Include" />
+          <e p="Types.fs" t="Include" />
+        </e>
+      </e>
+      <e p="fsharp.practice.sln" t="IncludeFlat" />
+      <e p="fsharp.StructuralEquality.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="fsharp.StructuralEquality.Tests.fsproj" t="IncludeRecursive" />
+        <e p="MessageTests.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="options.fsx" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="Query.fsx" t="Include" />
+        <e p="Script.fsx" t="Include" />
+        <e p="Seq.fsx" t="Include" />
+        <e p="StructuralEquality.fs" t="Include" />
+        <e p="try.fs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="xunit.core.2.1.0/build/_desktop/xunit.execution.desktop.dll" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_fsharp.practice.627533980.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+  </component>
+</project>
