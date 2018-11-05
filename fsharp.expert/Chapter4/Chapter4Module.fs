@@ -4,6 +4,8 @@ open System.IO
 open System
 open System.Diagnostics
 open System.Net.Http
+open System.Runtime.Serialization.Formatters.Binary
+open System.Runtime.Versioning
 
 let repeatFetch url n =
     for i = 1 to n do 
@@ -194,14 +196,95 @@ let linesOfFile =
         while  not reader.EndOfStream do 
             yield reader.ReadLine()
     }
-
-
-
     
-      
+let prettyPrinting =
+    sprintf "result = %A" ([1], [true])
     
+let boxTests =
+    let a = box 1
+    let b = box "abc"
+    let c = unbox<string> b
+    let d = (unbox b : string)
+    d
+    
+let writeValue outputStream x =
+    let formatter = new BinaryFormatter()
+    formatter.Serialize(outputStream, x)
+    
+let readValue inputStream =
+    let formatter = new  BinaryFormatter()
+    let res = formatter.Deserialize(inputStream)
+    
+    unbox res
+    
+let write =
+    let addresses = Map.ofList ["Jeff", "123 Main street"; 
+                                "Fred", "987 Pine Road"]
+    let fsOut = new FileStream("Data.dat", FileMode.Create)
+    writeValue fsOut addresses
+    fsOut.Close()
+    
+    let fsIn = new  FileStream("Data.dat", FileMode.Open)
+    let res: Map<string, string> = readValue fsIn
+    fsIn.Close()
     
 
+type Numeric<'T> =
+    {
+        Zero : 'T;
+        Subtract : ('T -> 'T -> 'T)
+        LessThen : ('T -> 'T -> bool)
+    }
     
+let intOps = { Zero = 0; Subtract = (-); LessThen = (<) }
+let bigIntOps = { Zero = 0I; Subtract = (-); LessThen = (<) }
+let hcfGeneric (ops: Numeric<'T>) =
+    let rec hcf a b =
+        if a = ops.Zero then b
+        elif  ops.LessThen a b then hcf a (ops.Subtract b a )
+        else hcf (ops.Subtract a b ) b
+        
+    hcf
+    
+let hcfInt = hcfGeneric intOps
+let hcfBigInt = hcfGeneric bigIntOps
+
+let a = hcfInt 18 12
+
+type INumberic<'T> =
+    abstract Zero : 'T
+    abstract Subtract : 'T * 'T -> 'T
+    abstract LessThen : 'T * 'T -> bool
+    
+let intOps' =
+    {new INumberic<int> with 
+        member  ops.Zero = 0
+        member  ops.Subtract(x, y) = x - y
+        member  ops.LessThen(x, y) = x < y}
+    
+let castingUp =
+    let xobj = (1 :> obj)
+    let sobj = ("abc" :> obj)
+    
+    xobj, sobj 
+    
+let castingDown =
+    let boxedObj = box "abc"
+    let downcastString = (boxedObj :?> string)
+    downcastString     
+    
+let checkObject (x: obj) =
+    match x with 
+    | :? string -> printfn "the object is a string"
+    | :? int -> printfn "the object is an integer"
+    | _ -> printfn "The input is something else"
+    
+checkObject (box "abc")
+    
+    
+type PingPang = Ping | Pong
+let printSecondElements (inp : seq<PingPang * int>) =
+    inp
+    |> Seq.iter ( fun (x, y) -> printfn "y = %d" y)
 
     
