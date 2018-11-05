@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd56869-515b-4399-a497-bc3d799f5718" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.expert/fsharp.expert.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.expert/fsharp.expert.fsproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fs" value="13" />
+          <entry key="fs" value="14" />
           <entry key="fsproj" value="2" />
           <entry key="fsx" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="F#" value="13" />
+          <entry key="F#" value="14" />
           <entry key="F# Script" value="3" />
           <entry key="Fsproj" value="2" />
         </counts>
@@ -38,13 +41,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Plain text Console" value="58" />
-          <entry key="fs" value="11469" />
+          <entry key="fs" value="14951" />
           <entry key="fsx" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="F#" value="11469" />
+          <entry key="F#" value="14951" />
           <entry key="F# Script" value="11" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
@@ -107,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="288" selection-start-line="288" selection-end-line="288" />
+            <state relative-caret-position="1852">
+              <caret line="290" selection-start-line="290" selection-end-line="290" />
               <folding>
                 <marker date="1541421346772" expanded="true" signature="44:7448" ph=" ..." />
                 <marker date="1541421346772" expanded="true" signature="50:231" ph="..." />
@@ -189,6 +192,39 @@
                 <marker date="1541421346772" expanded="true" signature="7095:7267" ph=" = ..." />
                 <marker date="1541421346772" expanded="true" signature="7114:7267" ph="  ..." />
                 <marker date="1541421346772" expanded="true" signature="7386:7448" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="116" column="12" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+              <folding>
+                <marker date="1541433777553" expanded="true" signature="44:3903" ph=" ..." />
+                <marker date="1541433777553" expanded="true" signature="92:546" ph="= ..." />
+                <marker date="1541433777553" expanded="true" signature="673:1120" ph="dx: float, dy : float) = ..." />
+                <marker date="1541433777553" expanded="true" signature="1264:1501" ph="dx, dy) = ..." />
+                <marker date="1541433777553" expanded="true" signature="1524:1771" ph="dx: float, dy: float) = ..." />
+                <marker date="1541433777553" expanded="true" signature="1795:2042" ph="items: seq&lt;int * float&gt;) = ..." />
+                <marker date="1541433777553" expanded="true" signature="1945:2042" ph=" ..." />
+                <marker date="1541433777553" expanded="true" signature="1966:2042" ph=" = ..." />
+                <marker date="1541433777553" expanded="true" signature="2005:2042" ph=" then elems.[id] ..." />
+                <marker date="1541433777553" expanded="true" signature="2144:2503" ph="dx: float, dy: float) = ..." />
+                <marker date="1541433777553" expanded="true" signature="2293:2355" ph=" = ..." />
+                <marker date="1541433777553" expanded="true" signature="2441:2503" ph=" = ..." />
+                <marker date="1541433777553" expanded="true" signature="2588:2872" ph="?text: string, ?font : string) = ..." />
+                <marker date="1541433777553" expanded="true" signature="2667:2733" ph=" = match font with  ..." />
+                <marker date="1541433777553" expanded="true" signature="2895:3531" ph="dx :float, dy: float) = ..." />
+                <marker date="1541433777553" expanded="true" signature="3130:3323" ph=" ..." />
+                <marker date="1541433777553" expanded="true" signature="3211:3323" ph=" = ..." />
+                <marker date="1541433777553" expanded="true" signature="3357:3531" ph=" ..." />
+                <marker date="1541433777553" expanded="true" signature="3420:3531" ph=" = ..." />
+                <marker date="1541433777553" expanded="true" signature="3564:3760" ph="rows: int, cols: int) = ..." />
+                <marker date="1541433777553" expanded="true" signature="3660:3760" ph="  ..." />
+                <marker date="1541433777553" expanded="true" signature="3846:3903" ph=") = ..." />
               </folding>
             </state>
           </provider>
@@ -280,6 +316,7 @@
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/User.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -291,6 +328,8 @@
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter3/Chapter3Module.fs" />
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs" />
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Moduel.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" />
       </list>
     </option>
   </component>
@@ -321,6 +360,11 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="fsharp.expert" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -377,12 +421,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541306293706</updated>
       <workItem from="1541306295176" duration="14082000" />
-      <workItem from="1541418525439" duration="2688000" />
+      <workItem from="1541418525439" duration="6477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16770000" />
+    <option name="totallyTimeSpent" value="20559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +441,7 @@
     <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,7 +458,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.29222798" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.29222798" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        <state relative-caret-position="1852">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
           <folding>
             <marker date="1541421346772" expanded="true" signature="44:7448" ph=" ..." />
             <marker date="1541421346772" expanded="true" signature="50:231" ph="..." />
@@ -662,6 +706,37 @@
             <marker date="1541421346772" expanded="true" signature="7095:7267" ph=" = ..." />
             <marker date="1541421346772" expanded="true" signature="7114:7267" ph="  ..." />
             <marker date="1541421346772" expanded="true" signature="7386:7448" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="116" column="12" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <folding>
+            <marker date="1541433777553" expanded="true" signature="44:3903" ph=" ..." />
+            <marker date="1541433777553" expanded="true" signature="92:546" ph="= ..." />
+            <marker date="1541433777553" expanded="true" signature="673:1120" ph="dx: float, dy : float) = ..." />
+            <marker date="1541433777553" expanded="true" signature="1264:1501" ph="dx, dy) = ..." />
+            <marker date="1541433777553" expanded="true" signature="1524:1771" ph="dx: float, dy: float) = ..." />
+            <marker date="1541433777553" expanded="true" signature="1795:2042" ph="items: seq&lt;int * float&gt;) = ..." />
+            <marker date="1541433777553" expanded="true" signature="1945:2042" ph=" ..." />
+            <marker date="1541433777553" expanded="true" signature="1966:2042" ph=" = ..." />
+            <marker date="1541433777553" expanded="true" signature="2005:2042" ph=" then elems.[id] ..." />
+            <marker date="1541433777553" expanded="true" signature="2144:2503" ph="dx: float, dy: float) = ..." />
+            <marker date="1541433777553" expanded="true" signature="2293:2355" ph=" = ..." />
+            <marker date="1541433777553" expanded="true" signature="2441:2503" ph=" = ..." />
+            <marker date="1541433777553" expanded="true" signature="2588:2872" ph="?text: string, ?font : string) = ..." />
+            <marker date="1541433777553" expanded="true" signature="2667:2733" ph=" = match font with  ..." />
+            <marker date="1541433777553" expanded="true" signature="2895:3531" ph="dx :float, dy: float) = ..." />
+            <marker date="1541433777553" expanded="true" signature="3130:3323" ph=" ..." />
+            <marker date="1541433777553" expanded="true" signature="3211:3323" ph=" = ..." />
+            <marker date="1541433777553" expanded="true" signature="3357:3531" ph=" ..." />
+            <marker date="1541433777553" expanded="true" signature="3420:3531" ph=" = ..." />
+            <marker date="1541433777553" expanded="true" signature="3564:3760" ph="rows: int, cols: int) = ..." />
+            <marker date="1541433777553" expanded="true" signature="3660:3760" ph="  ..." />
+            <marker date="1541433777553" expanded="true" signature="3846:3903" ph=") = ..." />
           </folding>
         </state>
       </provider>

@@ -11,6 +11,7 @@
         <Compile Include="Chapter3\Chapter3Module.fs" />
         <Compile Include="Chapter4\Chapter4Module.fs" />
         <Compile Include="Chapter5\Chapter5Module.fs" />
+        <Compile Include="Chapter6\Chapter6Module.fs" />
         <Compile Include="Tests.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>

@@ -73,6 +73,9 @@
         <e p="Chapter5" t="Include">
           <e p="Chapter5Module.fs" t="Include" />
         </e>
+        <e p="Chapter6" t="Include">
+          <e p="Chapter6Module.fs" t="Include" />
+        </e>
         <e p="fsharp.expert.fsproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.fs" t="Include" />
