@@ -36,19 +36,19 @@
     let replace oldStr newStr (s:string) =
         s.Replace(oldValue=oldStr, newValue=newStr)
 
-    let startsWith  lookFor (s:string) =
+    let startsWith  (lookFor:char) (s:string) =
         s.StartsWith(lookFor)
 
     let result =
         "hello"
         |> replace "h" "j"
-        |> startsWith "j"
+        |> startsWith 'j'
 
     let result2 =
         ["the";"quick";"brown";"fox"]
-        |> List.filter (startsWith "f")
+        |> List.filter (startsWith 'f')
 
-    let compositeOp = replace "h" "j" >> startsWith "j"
+    let compositeOp = replace "h" "j" >> startsWith 'j'
     let result3 = compositeOp "hello"
 
     //The reverse pipe function

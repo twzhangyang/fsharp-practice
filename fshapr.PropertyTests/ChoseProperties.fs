@@ -41,6 +41,7 @@ module DifferentPathsSameDestination =
         appendThenReverse = reverseThenPrepend
 
 module ThereAndBackAgian =
+    [<Property>]
     let ``reverse then reverse should be same as original`` aList =
         let reverseThenReverse = aList |> List.rev |> List.rev
         reverseThenReverse =  aList

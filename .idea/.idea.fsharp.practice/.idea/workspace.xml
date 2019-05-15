@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd56869-515b-4399-a497-bc3d799f5718" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fsharp.expert/Chapter8/Chapter8Module.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fsharp.expert/Chapter9/Chapter9Module.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs" beforeDir="false" afterPath="$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.expert/fsharp.expert.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.expert/fsharp.expert.fsproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,331 +19,271 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-77150593">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fs" value="14" />
-          <entry key="fsproj" value="2" />
-          <entry key="fsx" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="F#" value="14" />
-          <entry key="F# Script" value="3" />
-          <entry key="Fsproj" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Plain text Console" value="80" />
-          <entry key="fs" value="19219" />
-          <entry key="fsx" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="F#" value="19219" />
-          <entry key="F# Script" value="11" />
-          <entry key="PLAIN_TEXT" value="80" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter2/Chapter2Module.fs">
+        <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-              <folding>
-                <marker date="1541309792824" expanded="true" signature="44:1073" ph=" ..." />
-                <marker date="1541309792824" expanded="true" signature="88:129" ph=" = ..." />
-                <marker date="1541309792824" expanded="true" signature="157:345" ph=" = ..." />
-                <marker date="1541309792824" expanded="true" signature="378:517" ph=" = ..." />
-                <marker date="1541309792824" expanded="true" signature="558:882" ph="= ..." />
-                <marker date="1541309792824" expanded="true" signature="923:1073" ph=" = ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter3/Chapter3Module.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
+            <state relative-caret-position="1710">
               <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
-                <marker date="1541320700672" expanded="true" signature="44:2489" ph=" ..." />
-                <marker date="1541320700672" expanded="true" signature="50:76" ph="..." />
-                <marker date="1541320700672" expanded="true" signature="89:150" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="107:150" ph=" then 100 ..." />
-                <marker date="1541320700672" expanded="true" signature="131:150" ph=" then 0 ..." />
-                <marker date="1541320700672" expanded="true" signature="168:254" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="187:254" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="350:413" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="369:413" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="430:605" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="618:790" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="812:929" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="968:1103" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="998:1103" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="1127:1253" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="1147:1253" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="1274:1419" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="1298:1419" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="1478:1560" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="1497:1560" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="1580:1726" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="1599:1726" ph="  ..." />
-                <marker date="1541320700672" expanded="true" signature="1769:2007" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="2032:2197" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="2220:2368" ph=" = ..." />
-                <marker date="1541320700672" expanded="true" signature="2384:2489" ph=" = ..." />
+                <marker date="1551529044742" expanded="false" signature="46:84" ph="..." />
+                <marker date="1551529044742" expanded="true" signature="122:1348" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="204:377" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="484:691" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="792:1042" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="1167:1348" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="1374:1560" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="1459:1560" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="1593:2845" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="1726:2008" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="2100:2206" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="2269:2471" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="2535:2845" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="2875:4664" ph=" = ..." />
+                <marker date="1551529044742" expanded="false" signature="2887:2919" ph="..." />
+                <marker date="1551529044742" expanded="true" signature="3011:3100" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="3143:3412" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="3159:3411" ph=" ..." />
+                <marker date="1551529044742" expanded="true" signature="3188:3398" ph=" ..." />
+                <marker date="1551529044742" expanded="true" signature="3252:3398" ph=" -&gt; ..." />
+                <marker date="1551529044742" expanded="true" signature="3311:3398" ph="for subList in insertElement anElement rest do ..." />
+                <marker date="1551529044742" expanded="true" signature="3444:3665" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="3460:3664" ph=" ..." />
+                <marker date="1551529044742" expanded="true" signature="3489:3655" ph=" ..." />
+                <marker date="1551529044742" expanded="true" signature="3544:3655" ph=" -&gt; ..." />
+                <marker date="1551529044742" expanded="true" signature="3671:3880" ph="//[&lt;Property&gt;] ..." />
+                <marker date="1551529044742" expanded="true" signature="4064:4427" ph=" = ..." />
+                <marker date="1551529044742" expanded="true" signature="4140:4427" ph=" ..." />
+                <marker date="1551529044742" expanded="true" signature="4273:4427" ph=" -&gt; ..." />
+                <marker date="1551529044742" expanded="true" signature="4526:4664" ph=" = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Modularization/fsharp.Modularization.fsproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Classes.fsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4505">
-              <caret line="271" column="28" selection-start-line="271" selection-start-column="28" selection-end-line="271" selection-end-column="28" />
+            <state>
               <folding>
-                <marker date="1541421346772" expanded="true" signature="44:7448" ph=" ..." />
-                <marker date="1541421346772" expanded="false" signature="50:231" ph="..." />
-                <marker date="1541421346772" expanded="true" signature="254:365" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="261:345" ph="for i = 1 to n do  ..." />
-                <marker date="1541421346772" expanded="true" signature="385:472" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="415:472" ph="while a &gt; 0 do  ..." />
-                <marker date="1541421346772" expanded="true" signature="486:630" ph=" =        ..." />
-                <marker date="1541421346772" expanded="true" signature="500:630" ph="for (b, pj) in [(&quot;Banana 1 &quot;, false ); (&quot;Banana 2&quot;, true )] do  ..." />
-                <marker date="1541421346772" expanded="true" signature="577:630" ph=" then  ..." />
-                <marker date="1541421346772" expanded="true" signature="658:747" ph="= ..." />
-                <marker date="1541421346772" expanded="true" signature="664:747" ph="{   mutable Total : int; ..." />
-                <marker date="1541421346772" expanded="true" signature="806:887" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="910:951" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1029:1112" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1141:1233" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1260:1455" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1518:1647" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1605:1647" ph=" then res ..." />
-                <marker date="1541421346772" expanded="true" signature="1677:2017" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="1687:2017" ph=" ..." />
-                <marker date="1541421346772" expanded="true" signature="1928:2017" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2045:2185" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="2055:2185" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2224:2493" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="2315:2493" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2471:2493" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2548:2774" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="2558:2679" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2618:2679" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="2723:2774" ph=" ..." />
-                <marker date="1541421346772" expanded="true" signature="2816:2890" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="2919:2959" ph="= ..." />
-                <marker date="1541421346772" expanded="true" signature="3012:3142" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3079:3142" ph=" with  ..." />
-                <marker date="1541421346772" expanded="true" signature="3159:3429" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3220:3404" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3249:3404" ph=" then t.[n] ..." />
-                <marker date="1541421346772" expanded="true" signature="3280:3404" ph=" then 1 ..." />
-                <marker date="1541421346772" expanded="true" signature="3445:3585" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3616:3816" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3684:3816" ph=" -&gt; if t.ContainsKey n then t.[n] ..." />
-                <marker date="1541421346772" expanded="true" signature="3833:3916" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="3940:4016" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4051:4493" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4147:4493" ph=" with  ..." />
-                <marker date="1541421346772" expanded="true" signature="4199:4422" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4250:4422" ph=" then  ..." />
-                <marker date="1541421346772" expanded="true" signature="4450:4487" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4516:4662" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4546:4662" ph=" (fun n -&gt;  ..." />
-                <marker date="1541421346772" expanded="true" signature="4684:4735" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4758:4813" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="4824:4901" ph="reftest = ..." />
-                <marker date="1541421346772" expanded="true" signature="5010:5171" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5022:5170" ph=" ..." />
-                <marker date="1541421346772" expanded="true" signature="5096:5165" ph="while  not reader.EndOfStream do  ..." />
-                <marker date="1541421346772" expanded="true" signature="5195:5237" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5255:5362" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5397:5482" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5513:5626" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5641:5999" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="5661:5760" ph=" = Map.ofList [&quot;Jeff&quot;, &quot;123 Main street&quot;;  ..." />
-                <marker date="1541421346772" expanded="true" signature="6022:6129" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6029:6129" ph="{ ..." />
-                <marker date="1541421346772" expanded="true" signature="6288:6461" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6310:6444" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6336:6444" ph=" then b ..." />
-                <marker date="1541421346772" expanded="true" signature="6374:6444" ph=" then hcf a (ops.Subtract b a ) ..." />
-                <marker date="1541421346772" expanded="true" signature="6576:6679" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6696:6844" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6722:6844" ph=" with  ..." />
-                <marker date="1541421346772" expanded="true" signature="6863:6941" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="6963:7060" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="7095:7267" ph=" = ..." />
-                <marker date="1541421346772" expanded="true" signature="7114:7267" ph="  ..." />
-                <marker date="1541421346772" expanded="true" signature="7386:7448" ph=" = ..." />
+                <marker date="1541306264862" expanded="true" signature="33:105" ph=" = ..." />
+                <marker date="1541306264862" expanded="true" signature="136:370" ph=") = ..." />
+                <marker date="1541306264862" expanded="true" signature="387:536" ph="x:int, y:int) =  ..." />
+                <marker date="1541306264862" expanded="true" signature="661:921" ph="rad:int) = ..." />
+                <marker date="1541306264862" expanded="true" signature="845:921" ph="  ..." />
+                <marker date="1541306264862" expanded="true" signature="1118:1194" ph="(key:'a, value:'b) = ..." />
+                <marker date="1541306264862" expanded="true" signature="1218:1360" ph="when 'a : equality and 'b :&gt; System.Collections.ICollection&gt;(name:'a, values:'b) = ..." />
+                <marker date="1541306264862" expanded="true" signature="1408:1558" ph=" ..." />
+                <marker date="1541306264862" expanded="true" signature="1454:1558" ph=" ..." />
+                <marker date="1541306264862" expanded="true" signature="1599:1653" ph="with ..." />
+                <marker date="1541306264862" expanded="true" signature="1752:1794" ph="with ..." />
+                <marker date="1541306264862" expanded="true" signature="1884:2002" ph=") = ..." />
+                <marker date="1541306264862" expanded="true" signature="1944:2002" ph=" = ..." />
+                <marker date="1541306264862" expanded="true" signature="1955:2002" ph="for arg in args do ..." />
+                <marker date="1541306264862" expanded="true" signature="2091:2264" ph=") = ..." />
+                <marker date="1541306264862" expanded="true" signature="2224:2264" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1541306591726" expanded="true" signature="15:481" ph=" =  ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <marker date="1557936296320" expanded="true" signature="15:999" ph=" =  ..." />
+                <marker date="1557936296320" expanded="true" signature="133:413" ph=" = ..." />
+                <marker date="1557936296320" expanded="true" signature="160:413" ph=" ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+              <folding>
+                <marker date="1557936296317" expanded="true" signature="14:1467" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="231:355" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="395:438" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="608:710" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="756:810" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="857:889" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="905:976" ph=" = ..." />
+                <marker date="1557936296317" expanded="true" signature="993:1073" ph=" = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter9/Chapter9Module.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="283" column="41" lean-forward="true" selection-start-line="283" selection-start-column="41" selection-end-line="283" selection-end-column="41" />
+            <state relative-caret-position="166">
+              <caret line="153" column="14" lean-forward="true" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
               <folding>
-                <marker date="1542633049061" expanded="true" signature="45:9082" ph=" ..." />
-                <marker date="1542633049061" expanded="true" signature="51:178" ph="..." />
-                <marker date="1542633049061" expanded="true" signature="194:648" ph="= ..." />
-                <marker date="1542633049061" expanded="true" signature="775:1222" ph="dx: float, dy : float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="1366:1603" ph="dx, dy) = ..." />
-                <marker date="1542633049061" expanded="true" signature="1626:1873" ph="dx: float, dy: float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="1897:2144" ph="items: seq&lt;int * float&gt;) = ..." />
-                <marker date="1542633049061" expanded="true" signature="2047:2144" ph=" ..." />
-                <marker date="1542633049061" expanded="true" signature="2068:2144" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="2107:2144" ph=" then elems.[id] ..." />
-                <marker date="1542633049061" expanded="true" signature="2246:2605" ph="dx: float, dy: float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="2395:2457" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="2543:2605" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="2690:2974" ph="?text: string, ?font : string) = ..." />
-                <marker date="1542633049061" expanded="true" signature="2769:2835" ph=" = match font with  ..." />
-                <marker date="1542633049061" expanded="true" signature="2997:3633" ph="dx :float, dy: float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="3232:3425" ph=" ..." />
-                <marker date="1542633049061" expanded="true" signature="3313:3425" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="3459:3633" ph=" ..." />
-                <marker date="1542633049061" expanded="true" signature="3522:3633" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="3666:3862" ph="rows: int, cols: int) = ..." />
-                <marker date="1542633049061" expanded="true" signature="3762:3862" ph="  ..." />
-                <marker date="1542633049061" expanded="true" signature="3948:4005" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="4037:4113" ph="= ..." />
-                <marker date="1542633049061" expanded="true" signature="4206:4586" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="4227:4586" ph=" with  ..." />
-                <marker date="1542633049061" expanded="true" signature="4274:4436" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="4482:4580" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="4700:5225" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="4883:5225" ph=" with  ..." />
-                <marker date="1542633049061" expanded="true" signature="4928:5083" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="5121:5225" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="5260:5342" ph="= ..." />
-                <marker date="1542633049061" expanded="true" signature="5386:5551" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="5416:5551" ph=" with  ..." />
-                <marker date="1542633049061" expanded="true" signature="5606:5665" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="5695:6014" ph="writeCharFunction : char -&gt; unit) = ..." />
-                <marker date="1542633049061" expanded="true" signature="5787:5987" ph=" with  ..." />
-                <marker date="1542633049061" expanded="true" signature="5823:5890" ph=" =  ..." />
-                <marker date="1542633049061" expanded="true" signature="5922:5987" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="6062:6204" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="6226:6669" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="6268:6440" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="6303:6440" ph=" with  ..." />
-                <marker date="1542633049061" expanded="true" signature="6346:6430" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="6712:6895" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="6834:6895" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="6943:7270" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="7297:7420" ph=" =  ..." />
-                <marker date="1542633049061" expanded="true" signature="7453:7658" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="7511:7658" ph="  ..." />
-                <marker date="1542633049061" expanded="true" signature="7610:7658" ph="  ..." />
-                <marker date="1542633049061" expanded="true" signature="7734:7797" ph="with  ..." />
-                <marker date="1542633049061" expanded="true" signature="7842:7969" ph=") = ..." />
-                <marker date="1542633049061" expanded="true" signature="7991:8124" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="8016:8124" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="8039:8124" ph="  ..." />
-                <marker date="1542633049061" expanded="true" signature="8148:8196" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="8229:8360" ph="dx : float, dy : float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="8380:8479" ph="= ..." />
-                <marker date="1542633049061" expanded="true" signature="8508:8585" ph="= ..." />
-                <marker date="1542633049061" expanded="true" signature="8626:8741" ph="dx : float, dy : float) = ..." />
-                <marker date="1542633049061" expanded="true" signature="8801:9082" ph=" = ..." />
-                <marker date="1542633049061" expanded="true" signature="8820:9082" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="44:4892" ph=" ..." />
+                <marker date="1557936536171" expanded="true" signature="50:79" ph="..." />
+                <marker date="1557936536171" expanded="true" signature="250:399" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="577:765" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="589:764" ph=" for row in 1 .. n do  ..." />
+                <marker date="1557936536171" expanded="true" signature="624:759" ph="for col in 1 .. n do     ..." />
+                <marker date="1557936536171" expanded="true" signature="715:759" ph=" then  ..." />
+                <marker date="1557936536171" expanded="true" signature="787:1056" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="799:1055" ph="   for file in System.IO.Directory.GetFiles dir do ..." />
+                <marker date="1557936536171" expanded="true" signature="1083:1270" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="1095:1269" ph="   for file in Directory.GetFiles dir do  ..." />
+                <marker date="1557936536171" expanded="true" signature="1177:1264" ph="for subdir in Directory.GetDirectories dir do  ..." />
+                <marker date="1557936536171" expanded="true" signature="1371:1532" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="1379:1531" ph="(&quot;Amber&quot;, 27, &quot;Design&quot;) ..." />
+                <marker date="1557936536171" expanded="true" signature="1568:1700" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="1823:1912" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="1941:2020" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2039:2151" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2047:2150" ph="   for i in 0 .. 7 do  ..." />
+                <marker date="1557936536171" expanded="true" signature="2082:2145" ph="for j in 0 .. 7 do  ..." />
+                <marker date="1557936536171" expanded="true" signature="2174:2294" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2331:2387" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2418:2503" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2578:2815" ph="r : float, i : float) = ..." />
+                <marker date="1557936536171" expanded="true" signature="2952:3038" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="2974:3038" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="3067:3172" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="3089:3172" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="3197:3282" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="3219:3282" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="3332:3800" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="3359:3800" ph=" ..." />
+                <marker date="1557936536171" expanded="true" signature="3465:3800" ph=" then Param(typ.GenericParameterPosition) ..." />
+                <marker date="1557936536171" expanded="true" signature="3538:3800" ph=" then Named(typ,[||]) ..." />
+                <marker date="1557936536171" expanded="true" signature="3580:3800" ph=" then Array(typ.GetElementType(), typ.GetArrayRank()) ..." />
+                <marker date="1557936536171" expanded="true" signature="3654:3800" ph=" then Ptr(true, typ.GetElementType()) ..." />
+                <marker date="1557936536171" expanded="true" signature="3714:3800" ph=" then Ptr(false, typ.GetElementType()) ..." />
+                <marker date="1557936536171" expanded="true" signature="3824:4233" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="3845:4155" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="4176:4233" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="4271:4475" ph=" = ..." />
+                <marker date="1557936536171" expanded="true" signature="4292:4475" ph="  ..." />
+                <marker date="1557936536171" expanded="true" signature="4772:4892" ph="= ..." />
+                <marker date="1557936536171" expanded="true" signature="4778:4892" ph="| AndRepr of Prop * Prop ..." />
+                <marker date="1557936536171" expanded="true" signature="4894:5105" ph="//let (|And|Or|Not|Var|True|) prop = ..." />
+                <marker date="1557936536171" expanded="true" signature="5107:5492" ph="//let rec showProp precedence prop = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            <state>
               <folding>
-                <marker date="1541337614536" expanded="true" signature="44:2209" ph=" ..." />
-                <marker date="1541337614536" expanded="false" signature="50:67" ph="..." />
-                <marker date="1541337614536" expanded="true" signature="134:202" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="140:202" ph="{ ..." />
-                <marker date="1541337614536" expanded="true" signature="288:421" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="294:421" ph="{ ..." />
-                <marker date="1541337614536" expanded="true" signature="437:573" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="593:846" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="699:845" ph=" ..." />
-                <marker date="1541337614536" expanded="true" signature="900:986" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="1063:1123" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="1069:1123" ph="| Car of Make * Model ..." />
-                <marker date="1541337614536" expanded="true" signature="1162:1239" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="1182:1239" ph="  ..." />
-                <marker date="1541337614536" expanded="true" signature="1262:1376" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="1268:1376" ph="| True ..." />
-                <marker date="1541337614536" expanded="true" signature="1412:1564" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="1431:1564" ph="  ..." />
-                <marker date="1541337614536" expanded="true" signature="1578:1622" ph="list = ..." />
-                <marker date="1541337614536" expanded="true" signature="1589:1622" ph="| ([]) ..." />
-                <marker date="1541337614536" expanded="true" signature="1641:1698" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="1648:1698" ph="| Tree of 'T * Tree&lt;'T&gt; * Tree&lt;'T&gt; ..." />
-                <marker date="1541337614536" expanded="true" signature="1727:1822" ph=" = ..." />
-                <marker date="1541337614536" expanded="true" signature="1749:1822" ph="  ..." />
-                <marker date="1541337614536" expanded="true" signature="2028:2071" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="2081:2116" ph="= ..." />
-                <marker date="1541337614536" expanded="true" signature="2087:2116" ph="| Dangling ..." />
+                <marker date="1541306264861" expanded="true" signature="0:5984" ph="module Catamorphism = ..." />
+                <marker date="1541306264861" expanded="true" signature="46:103" ph="= ..." />
+                <marker date="1541306264861" expanded="true" signature="56:103" ph="| File of File ..." />
+                <marker date="1541306264861" expanded="true" signature="636:893" ph=" :'r =  ..." />
+                <marker date="1541306264861" expanded="true" signature="708:893" ph=" ..." />
+                <marker date="1541306264861" expanded="true" signature="779:893" ph=" -&gt;  ..." />
+                <marker date="1541306264861" expanded="true" signature="928:1110" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="960:989" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="1027:1069" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="1251:2043" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="1333:1368" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="1450:1552" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="1613:1638" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="1712:1966" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="1747:1966" ph=" ..." />
+                <marker date="1541306264861" expanded="true" signature="1832:1966" ph=" -&gt;  ..." />
+                <marker date="1541306264861" expanded="true" signature="2332:2398" ph="= ..." />
+                <marker date="1541306264861" expanded="true" signature="2342:2398" ph="| Bought of BoughtProduct  ..." />
+                <marker date="1541306264861" expanded="true" signature="2422:2503" ph="= { ..." />
+                <marker date="1541306264861" expanded="true" signature="2524:2608" ph="= { ..." />
+                <marker date="1541306264861" expanded="true" signature="2627:2676" ph="= { ..." />
+                <marker date="1541306264861" expanded="true" signature="2691:2754" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="2769:2833" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="2853:2915" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="2932:3109" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="2948:3109" ph=" {name=&quot;shampoo&quot;; weight=10; components= ..." />
+                <marker date="1541306264861" expanded="true" signature="2998:3107" ph=" ..." />
+                <marker date="1541306264861" expanded="true" signature="3126:3235" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="3142:3235" ph=" {name=&quot;twoPack&quot;; weight=5; components= ..." />
+                <marker date="1541306264861" expanded="true" signature="3191:3233" ph=" ..." />
+                <marker date="1541306264861" expanded="true" signature="3282:3788" ph=" :'r =  ..." />
+                <marker date="1541306264861" expanded="true" signature="3436:3482" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="3510:3788" ph=" ..." />
+                <marker date="1541306264861" expanded="true" signature="3586:3788" ph=" -&gt;  ..." />
+                <marker date="1541306264861" expanded="true" signature="3820:4497" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="3896:3925" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="4002:4421" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="4115:4146" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="4241:4323" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="4785:5983" ph=" = ..." />
+                <marker date="1541306264861" expanded="true" signature="4831:5050" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="5131:5730" ph=" =  ..." />
+                <marker date="1541306264861" expanded="true" signature="5292:5410" ph=" = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state>
               <folding>
-                <marker date="1541306939911" expanded="true" signature="12:89" ph=" ..." />
-                <marker date="1541306939911" expanded="false" signature="19:36" ph="..." />
-                <marker date="1541306939911" expanded="true" signature="65:89" ph=" = ..." />
+                <marker date="1541306675486" expanded="true" signature="69:1476" ph="= ..." />
+                <marker date="1541306675486" expanded="true" signature="92:188" ph="{ ..." />
+                <marker date="1541306675486" expanded="true" signature="203:355" ph="={ ..." />
+                <marker date="1541306675486" expanded="true" signature="370:525" ph="={ ..." />
+                <marker date="1541306675486" expanded="true" signature="568:723" ph="={ ..." />
+                <marker date="1541306675486" expanded="true" signature="777:825" ph="{ ..." />
+                <marker date="1541306675486" expanded="true" signature="848:946" ph="={ ..." />
+                <marker date="1541306675486" expanded="true" signature="967:1037" ph=" ..." />
+                <marker date="1541306675486" expanded="true" signature="972:1037" ph="| UserCreated of UserCreated ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Classes/User.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Script.fsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="36" selection-start-line="37" selection-start-column="3" selection-end-line="43" selection-end-column="36" />
+            <state>
               <folding>
-                <marker date="1541306264856" expanded="true" signature="38:78" ph=" ..." />
-                <marker date="1541306264856" expanded="true" signature="90:717" ph="name:string,genderNumber:int)= ..." />
-                <marker date="1541306264856" expanded="true" signature="127:265" ph=" ..." />
-                <marker date="1541306264856" expanded="true" signature="153:196" ph=" then ..." />
-                <marker date="1541306264856" expanded="true" signature="222:265" ph=" then ..." />
-                <marker date="1541306264856" expanded="true" signature="281:390" ph="= ..." />
-                <marker date="1541306264856" expanded="true" signature="314:390" ph=" ..." />
-                <marker date="1541306264856" expanded="true" signature="777:911" ph="= ..." />
+                <marker date="1541306264866" expanded="true" signature="0:114" ph="// Learn more about F## at http://fsharp.net. See the 'F## Tutorial' project ..." />
+                <marker date="1541306264866" expanded="true" signature="264:320" ph="= ..." />
+                <marker date="1541306264866" expanded="true" signature="285:320" ph=" ..." />
+                <marker date="1541306264866" expanded="true" signature="696:775" ph=" ..." />
+                <marker date="1541306264866" expanded="true" signature="730:775" ph=" ..." />
+                <marker date="1541306264866" expanded="true" signature="778:951" ph="//exception CountingException of string*int ..." />
+                <marker date="1541306264866" expanded="true" signature="957:1059" ph=" ..." />
+                <marker date="1541306264866" expanded="true" signature="971:1059" ph=" ..." />
+                <marker date="1541306264866" expanded="true" signature="1013:1059" ph="-&gt;  ..." />
+                <marker date="1541306264866" expanded="true" signature="1075:1130" ph="= ..." />
+                <marker date="1541306264866" expanded="true" signature="1157:1220" ph="= ..." />
+                <marker date="1541306264866" expanded="true" signature="1175:1220" ph=" ..." />
               </folding>
             </state>
           </provider>
@@ -343,20 +291,67 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vector</find>
+      <find>default</find>
+      <find>allFiles</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/options.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Script.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Seq.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter2/Chapter2Module.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.Classes/User.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.expert/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Query.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter3/Chapter3Module.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter9/Chapter9Module.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter8/Chapter8Module.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/SecondaryConstructors.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/User.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/ClassWithProperties.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/Constructing.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/Interface.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Classes/StaticClass.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Composition/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Composition/Composition.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Composition/LambdaExpression.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Composition/Recursion.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Seamless.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Types.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Exceptionhandling.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Classes.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Measuretype.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/PropertyTests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/functionComposition.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/Game/Game.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/Dimond.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/DimondTests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Lists.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Options.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Tuples.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Sequences.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/DiscriminatedUnions.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Modularization/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceA.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Modularization/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceB.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -370,20 +365,21 @@
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" />
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Moduel.fs" />
         <option value="$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter7/HidingThingsModule.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter7/PuttingCodeInModule.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter7/namespace1.fs" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter8/Chapter8Module.fs" />
+        <option value="$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx" />
+        <option value="$PROJECT_DIR$/fsharp.expert/Chapter9/Chapter9Module.fs" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1472" />
-    <option name="y" value="44" />
-    <option name="width" value="1920" />
-    <option name="height" value="1036" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -393,7 +389,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -410,31 +406,25 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
               <item name="fsharp.expert" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chapter2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chapter9" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="fsharp.expert" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chapter4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="fsharp.Practice" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="fsharp.expert" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chapter5" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="fsharp.expert" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chapter6" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="fsharp.Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ThinkingFunctionally" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,12 +481,17 @@
       <workItem from="1542004633154" duration="1430000" />
       <workItem from="1542549178670" duration="1215000" />
       <workItem from="1542631731772" duration="127000" />
-      <workItem from="1542631873133" duration="1144000" />
+      <workItem from="1542631873133" duration="4814000" />
+      <workItem from="1542806545546" duration="3491000" />
+      <workItem from="1543032857244" duration="7084000" />
+      <workItem from="1543052088755" duration="1387000" />
+      <workItem from="1551527584505" duration="2947000" />
+      <workItem from="1557935888424" duration="641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29586000" />
+    <option name="totallyTimeSpent" value="48806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,40 +503,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12353568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.29288703" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32953367" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32777777" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.34867504" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.30833334" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -553,86 +549,234 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/ProperyTesting.fsx" />
-    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/InteropCSharp.fsx" />
-    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Consumer.fs" />
-    <entry file="file://$PROJECT_DIR$/fsharp.Classes/fsharp.Classes.fsproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx">
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="102">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/User.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="731">
+          <caret line="43" column="36" selection-start-line="37" selection-start-column="3" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/fshapr.PropertyTests.fsproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Program.fs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/chapter2/Chapter2.fs" />
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter2/Chapter2Module.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="1351">
+          <caret line="284" column="20" selection-start-line="284" selection-start-column="20" selection-end-line="284" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/SecondaryConstructors.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/ClassWithProperties.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/StaticClass.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/Constructing.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Classes/Interface.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Composition/AssemblyInfo.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Composition/Composition.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Composition/LambdaExpression.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Composition/Recursion.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/HidingThingsModule.fs" />
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/namespace1.fs" />
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/PuttingCodeInModule.fs" />
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1541309792824" expanded="true" signature="44:1073" ph=" ..." />
-            <marker date="1541309792824" expanded="true" signature="88:129" ph=" = ..." />
-            <marker date="1541309792824" expanded="true" signature="157:345" ph=" = ..." />
-            <marker date="1541309792824" expanded="true" signature="378:517" ph=" = ..." />
-            <marker date="1541309792824" expanded="true" signature="558:882" ph="= ..." />
-            <marker date="1541309792824" expanded="true" signature="923:1073" ph=" = ..." />
+            <marker date="1541306264858" expanded="true" signature="50:607" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="153:315" ph="=  ..." />
+            <marker date="1541306264858" expanded="true" signature="434:607" ph="=  ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter3/Chapter3Module.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter8/Chapter8Module.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="2034">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
-            <marker date="1541320700672" expanded="true" signature="44:2489" ph=" ..." />
-            <marker date="1541320700672" expanded="true" signature="50:76" ph="..." />
-            <marker date="1541320700672" expanded="true" signature="89:150" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="107:150" ph=" then 100 ..." />
-            <marker date="1541320700672" expanded="true" signature="131:150" ph=" then 0 ..." />
-            <marker date="1541320700672" expanded="true" signature="168:254" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="187:254" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="350:413" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="369:413" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="430:605" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="618:790" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="812:929" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="968:1103" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="998:1103" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="1127:1253" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="1147:1253" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="1274:1419" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="1298:1419" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="1478:1560" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="1497:1560" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="1580:1726" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="1599:1726" ph="  ..." />
-            <marker date="1541320700672" expanded="true" signature="1769:2007" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="2032:2197" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="2220:2368" ph=" = ..." />
-            <marker date="1541320700672" expanded="true" signature="2384:2489" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="44:3265" ph="  ..." />
+            <marker date="1543036370270" expanded="false" signature="51:115" ph="..." />
+            <marker date="1543036370270" expanded="true" signature="151:713" ph=" = &quot;&quot;&quot; ..." />
+            <marker date="1543036370270" expanded="true" signature="777:1029" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="833:1028" ph="for customer in inputs do  ..." />
+            <marker date="1543036370270" expanded="true" signature="868:1023" ph="for order in customer.Orders do  ..." />
+            <marker date="1543036370270" expanded="true" signature="913:1023" ph="for line in order.OrderLines do  ..." />
+            <marker date="1543036370270" expanded="true" signature="1073:1746" ph=" = &quot;&quot;&quot; ..." />
+            <marker date="1543036370270" expanded="true" signature="2111:2164" ph="= ..." />
+            <marker date="1543036370270" expanded="true" signature="2117:2164" ph="| Term of int * string * int ..." />
+            <marker date="1543036370270" expanded="true" signature="2267:2337" ph="= ..." />
+            <marker date="1543036370270" expanded="true" signature="2273:2337" ph="| ID of string ..." />
+            <marker date="1543036370270" expanded="true" signature="2481:2785" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="2489:2784" ph="for x in tokenR.Match(s).Groups.[&quot;token&quot;].Captures do ..." />
+            <marker date="1543036370270" expanded="true" signature="2560:2758" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="2593:2758" ph="  ..." />
+            <marker date="1543036370270" expanded="true" signature="2919:2994" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="2940:2994" ph="  ..." />
+            <marker date="1543036370270" expanded="true" signature="3018:3265" ph=" = ..." />
+            <marker date="1543036370270" expanded="true" signature="3048:3265" ph="  ..." />
+            <marker date="1543036370270" expanded="true" signature="3075:3242" ph=" -&gt;  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/PropertyTests.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/Game/Game.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264852" expanded="true" signature="55:131" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="73:131" ph=" =  ..." />
+            <marker date="1541306264852" expanded="true" signature="97:131" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/Dimond.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264852" expanded="true" signature="34:414" ph=" ..." />
+            <marker date="1541306264852" expanded="true" signature="63:414" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="101:211" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/DimondTests.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264852" expanded="true" signature="39:2938" ph=" ..." />
+            <marker date="1541306264852" expanded="false" signature="46:96" ph="..." />
+            <marker date="1541306264852" expanded="true" signature="111:217" ph="= ..." />
+            <marker date="1541306264852" expanded="true" signature="136:217" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="249:316" ph="() = ..." />
+            <marker date="1541306264852" expanded="true" signature="427:562" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="584:652" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="717:828" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="860:952" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="984:1088" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1168:1310" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1334:1349" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1444:1746" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1580:1705" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1836:2221" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="1918:2024" ph=" =  ..." />
+            <marker date="1541306264852" expanded="true" signature="2044:2191" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="2295:2449" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="2549:2938" ph=" = ..." />
+            <marker date="1541306264852" expanded="true" signature="2620:2785" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Lists.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264858" expanded="true" signature="44:775" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="410:455" ph="for i in newIntList do ..." />
+            <marker date="1541306264858" expanded="true" signature="491:558" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="513:558" ph=" then 0 ..." />
+            <marker date="1541306264858" expanded="true" signature="641:712" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="663:712" ph=" ..." />
+            <marker date="1541306264858" expanded="true" signature="781:1102" ph="//    let listLength'' l= ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Options.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264858" expanded="true" signature="46:343" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="102:142" ph=" then ..." />
+            <marker date="1541306264858" expanded="true" signature="165:304" ph=" =  ..." />
+            <marker date="1541306264858" expanded="true" signature="189:304" ph="  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Tuples.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264858" expanded="true" signature="45:169" ph="= ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Sequences.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264858" expanded="true" signature="48:615" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="297:447" ph=" =  ..." />
+            <marker date="1541306264858" expanded="true" signature="314:446" ph=" ..." />
+            <marker date="1541306264858" expanded="true" signature="370:410" ph="for i in 1..3 do ..." />
+            <marker date="1541306264858" expanded="true" signature="502:582" ph=" = ..." />
+            <marker date="1541306264858" expanded="true" signature="518:581" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/AssemblyInfo.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264857" expanded="false" signature="50:140" ph="..." />
+            <marker date="1541306264857" expanded="true" signature="142:329" ph="// General Information about an assembly is controlled through the following  ..." />
+            <marker date="1541306264857" expanded="true" signature="342:1480" ph="AssemblyTitle(&quot;fsharp.DataStructure&quot;)&gt;] ..." />
+            <marker date="1541306264857" expanded="true" signature="672:882" ph="// Setting ComVisible to false makes the types in this assembly not visible  ..." />
+            <marker date="1541306264857" expanded="true" signature="1061:1396" ph="// Version information for an assembly consists of the following four values: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/DiscriminatedUnions.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264858" expanded="true" signature="58:643" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="76:110" ph="=  ..." />
+            <marker date="1541306264858" expanded="true" signature="129:219" ph="=  ..." />
+            <marker date="1541306264858" expanded="true" signature="136:219" ph="| Fruit of int ..." />
+            <marker date="1541306264858" expanded="true" signature="366:435" ph=" ..." />
+            <marker date="1541306264858" expanded="true" signature="371:435" ph="| Incoming of Product*decimal ..." />
+            <marker date="1541306264858" expanded="true" signature="452:573" ph="with ..." />
+            <marker date="1541306264858" expanded="true" signature="491:573" ph="= ..." />
+            <marker date="1541306264858" expanded="true" signature="517:573" ph=" ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4505">
+        <state relative-caret-position="904">
           <caret line="271" column="28" selection-start-line="271" selection-start-column="28" selection-end-line="271" selection-end-column="28" />
           <folding>
             <marker date="1541421346772" expanded="true" signature="44:7448" ph=" ..." />
@@ -715,140 +859,448 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter5/Chapter5Module.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/Program.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        <state>
           <folding>
-            <marker date="1541337614536" expanded="true" signature="44:2209" ph=" ..." />
-            <marker date="1541337614536" expanded="false" signature="50:67" ph="..." />
-            <marker date="1541337614536" expanded="true" signature="134:202" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="140:202" ph="{ ..." />
-            <marker date="1541337614536" expanded="true" signature="288:421" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="294:421" ph="{ ..." />
-            <marker date="1541337614536" expanded="true" signature="437:573" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="593:846" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="699:845" ph=" ..." />
-            <marker date="1541337614536" expanded="true" signature="900:986" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="1063:1123" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="1069:1123" ph="| Car of Make * Model ..." />
-            <marker date="1541337614536" expanded="true" signature="1162:1239" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="1182:1239" ph="  ..." />
-            <marker date="1541337614536" expanded="true" signature="1262:1376" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="1268:1376" ph="| True ..." />
-            <marker date="1541337614536" expanded="true" signature="1412:1564" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="1431:1564" ph="  ..." />
-            <marker date="1541337614536" expanded="true" signature="1578:1622" ph="list = ..." />
-            <marker date="1541337614536" expanded="true" signature="1589:1622" ph="| ([]) ..." />
-            <marker date="1541337614536" expanded="true" signature="1641:1698" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="1648:1698" ph="| Tree of 'T * Tree&lt;'T&gt; * Tree&lt;'T&gt; ..." />
-            <marker date="1541337614536" expanded="true" signature="1727:1822" ph=" = ..." />
-            <marker date="1541337614536" expanded="true" signature="1749:1822" ph="  ..." />
-            <marker date="1541337614536" expanded="true" signature="2028:2071" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="2081:2116" ph="= ..." />
-            <marker date="1541337614536" expanded="true" signature="2087:2116" ph="| Dangling ..." />
+            <marker date="1541306264860" expanded="true" signature="0:91" ph="// Learn more about F## at http://fsharp.org ..." />
+            <marker date="1541306264860" expanded="true" signature="175:325" ph="= ..." />
+            <marker date="1541306264860" expanded="true" signature="213:325" ph=" =  ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceA.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state>
           <folding>
-            <marker date="1541306939911" expanded="true" signature="12:89" ph=" ..." />
-            <marker date="1541306939911" expanded="false" signature="19:36" ph="..." />
-            <marker date="1541306939911" expanded="true" signature="65:89" ph=" = ..." />
+            <marker date="1541306264859" expanded="true" signature="61:154" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="84:103" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="135:154" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="175:212" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="195:212" ph="= ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Classes/User.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/AssemblyInfo.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="36" selection-start-line="37" selection-start-column="3" selection-end-line="43" selection-end-column="36" />
+        <state>
           <folding>
-            <marker date="1541306264856" expanded="true" signature="38:78" ph=" ..." />
-            <marker date="1541306264856" expanded="true" signature="90:717" ph="name:string,genderNumber:int)= ..." />
-            <marker date="1541306264856" expanded="true" signature="127:265" ph=" ..." />
-            <marker date="1541306264856" expanded="true" signature="153:196" ph=" then ..." />
-            <marker date="1541306264856" expanded="true" signature="222:265" ph=" then ..." />
-            <marker date="1541306264856" expanded="true" signature="281:390" ph="= ..." />
-            <marker date="1541306264856" expanded="true" signature="314:390" ph=" ..." />
-            <marker date="1541306264856" expanded="true" signature="777:911" ph="= ..." />
+            <marker date="1541306264859" expanded="false" signature="51:141" ph="..." />
+            <marker date="1541306264859" expanded="true" signature="143:330" ph="// General Information about an assembly is controlled through the following  ..." />
+            <marker date="1541306264859" expanded="true" signature="343:1483" ph="AssemblyTitle(&quot;fsharp.Modularization&quot;)&gt;] ..." />
+            <marker date="1541306264859" expanded="true" signature="675:885" ph="// Setting ComVisible to false makes the types in this assembly not visible  ..." />
+            <marker date="1541306264859" expanded="true" signature="1064:1399" ph="// Version information for an assembly consists of the following four values: ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceB.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="283" column="41" lean-forward="true" selection-start-line="283" selection-start-column="41" selection-end-line="283" selection-end-column="41" />
+        <state>
           <folding>
-            <marker date="1542633049061" expanded="true" signature="45:9082" ph=" ..." />
-            <marker date="1542633049061" expanded="true" signature="51:178" ph="..." />
-            <marker date="1542633049061" expanded="true" signature="194:648" ph="= ..." />
-            <marker date="1542633049061" expanded="true" signature="775:1222" ph="dx: float, dy : float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="1366:1603" ph="dx, dy) = ..." />
-            <marker date="1542633049061" expanded="true" signature="1626:1873" ph="dx: float, dy: float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="1897:2144" ph="items: seq&lt;int * float&gt;) = ..." />
-            <marker date="1542633049061" expanded="true" signature="2047:2144" ph=" ..." />
-            <marker date="1542633049061" expanded="true" signature="2068:2144" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="2107:2144" ph=" then elems.[id] ..." />
-            <marker date="1542633049061" expanded="true" signature="2246:2605" ph="dx: float, dy: float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="2395:2457" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="2543:2605" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="2690:2974" ph="?text: string, ?font : string) = ..." />
-            <marker date="1542633049061" expanded="true" signature="2769:2835" ph=" = match font with  ..." />
-            <marker date="1542633049061" expanded="true" signature="2997:3633" ph="dx :float, dy: float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="3232:3425" ph=" ..." />
-            <marker date="1542633049061" expanded="true" signature="3313:3425" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="3459:3633" ph=" ..." />
-            <marker date="1542633049061" expanded="true" signature="3522:3633" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="3666:3862" ph="rows: int, cols: int) = ..." />
-            <marker date="1542633049061" expanded="true" signature="3762:3862" ph="  ..." />
-            <marker date="1542633049061" expanded="true" signature="3948:4005" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="4037:4113" ph="= ..." />
-            <marker date="1542633049061" expanded="true" signature="4206:4586" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="4227:4586" ph=" with  ..." />
-            <marker date="1542633049061" expanded="true" signature="4274:4436" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="4482:4580" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="4700:5225" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="4883:5225" ph=" with  ..." />
-            <marker date="1542633049061" expanded="true" signature="4928:5083" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="5121:5225" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="5260:5342" ph="= ..." />
-            <marker date="1542633049061" expanded="true" signature="5386:5551" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="5416:5551" ph=" with  ..." />
-            <marker date="1542633049061" expanded="true" signature="5606:5665" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="5695:6014" ph="writeCharFunction : char -&gt; unit) = ..." />
-            <marker date="1542633049061" expanded="true" signature="5787:5987" ph=" with  ..." />
-            <marker date="1542633049061" expanded="true" signature="5823:5890" ph=" =  ..." />
-            <marker date="1542633049061" expanded="true" signature="5922:5987" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="6062:6204" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="6226:6669" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="6268:6440" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="6303:6440" ph=" with  ..." />
-            <marker date="1542633049061" expanded="true" signature="6346:6430" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="6712:6895" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="6834:6895" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="6943:7270" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="7297:7420" ph=" =  ..." />
-            <marker date="1542633049061" expanded="true" signature="7453:7658" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="7511:7658" ph="  ..." />
-            <marker date="1542633049061" expanded="true" signature="7610:7658" ph="  ..." />
-            <marker date="1542633049061" expanded="true" signature="7734:7797" ph="with  ..." />
-            <marker date="1542633049061" expanded="true" signature="7842:7969" ph=") = ..." />
-            <marker date="1542633049061" expanded="true" signature="7991:8124" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="8016:8124" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="8039:8124" ph="  ..." />
-            <marker date="1542633049061" expanded="true" signature="8148:8196" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="8229:8360" ph="dx : float, dy : float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="8380:8479" ph="= ..." />
-            <marker date="1542633049061" expanded="true" signature="8508:8585" ph="= ..." />
-            <marker date="1542633049061" expanded="true" signature="8626:8741" ph="dx : float, dy : float) = ..." />
-            <marker date="1542633049061" expanded="true" signature="8801:9082" ph=" = ..." />
-            <marker date="1542633049061" expanded="true" signature="8820:9082" ph="  ..." />
+            <marker date="1541306264859" expanded="true" signature="98:150" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="118:150" ph="= ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Exceptionhandling.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264862" expanded="true" signature="17:1357" ph=" =  ..." />
+            <marker date="1541306264862" expanded="false" signature="30:64" ph="..." />
+            <marker date="1541306264862" expanded="true" signature="88:139" ph=" =  ..." />
+            <marker date="1541306264862" expanded="true" signature="100:139" ph="| Success of 'a ..." />
+            <marker date="1541306264862" expanded="true" signature="166:259" ph="=  ..." />
+            <marker date="1541306264862" expanded="true" signature="177:259" ph="| FileNotFound of string ..." />
+            <marker date="1541306264862" expanded="true" signature="304:673" ph=" =  ..." />
+            <marker date="1541306264862" expanded="true" signature="319:673" ph=" ..." />
+            <marker date="1541306264862" expanded="true" signature="474:673" ph=" ..." />
+            <marker date="1541306264862" expanded="true" signature="716:799" ph=" =  ..." />
+            <marker date="1541306264862" expanded="true" signature="835:914" ph=" =  ..." />
+            <marker date="1541306264862" expanded="true" signature="953:1357" ph=" =  ..." />
+            <marker date="1541306264862" expanded="true" signature="1056:1357" ph=" ..." />
+            <marker date="1541306264862" expanded="true" signature="1158:1357" ph="-&gt; ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Measuretype.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264863" expanded="true" signature="19:778" ph=" = ..." />
+            <marker date="1541306264863" expanded="true" signature="108:155" ph=" =  ..." />
+            <marker date="1541306264863" expanded="true" signature="196:243" ph=" =  ..." />
+            <marker date="1541306264863" expanded="true" signature="421:526" ph="= ..." />
+            <marker date="1541306264863" expanded="true" signature="471:526" ph=" : float&lt;inches&gt; = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Seamless.fsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Types.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2793">
+          <folding>
+            <marker date="1541306264864" expanded="true" signature="17:109" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="39:58" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="90:109" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="112:173" ph="//module Calculator2= ..." />
+            <marker date="1541306264864" expanded="true" signature="185:267" ph="// function ..." />
+            <marker date="1541306264864" expanded="true" signature="269:342" ph="//    let myInt = 5 ..." />
+            <marker date="1541306264864" expanded="true" signature="344:467" ph="//    // list ..." />
+            <marker date="1541306264864" expanded="true" signature="471:540" ph="//    // function ..." />
+            <marker date="1541306264864" expanded="true" signature="546:595" ph="//    let add x y = x + y ..." />
+            <marker date="1541306264864" expanded="true" signature="601:724" ph="//    let evens list = ..." />
+            <marker date="1541306264864" expanded="true" signature="730:806" ph="//    let sumOfSquaresTo100 =  ..." />
+            <marker date="1541306264864" expanded="true" signature="812:897" ph="//    let sumOfSquaresTo100piped =  ..." />
+            <marker date="1541306264864" expanded="true" signature="903:996" ph="//    let sumOfSquaresTo100withFun =  ..." />
+            <marker date="1541306264864" expanded="true" signature="998:1230" ph="//    //Pattern Matching ..." />
+            <marker date="1541306264864" expanded="true" signature="1232:1293" ph="//    let validValue = Some(99) ..." />
+            <marker date="1541306264864" expanded="true" signature="1295:1466" ph="//    let optionPatternMatch input = ..." />
+            <marker date="1541306264864" expanded="true" signature="1472:1751" ph="//    //Complex data type ..." />
+            <marker date="1541306264864" expanded="true" signature="1753:1879" ph="//    // Union type ..." />
+            <marker date="1541306264864" expanded="true" signature="1881:2080" ph="//    type Employee =  ..." />
+            <marker date="1541306264864" expanded="true" signature="2082:2222" ph="//    printfn &quot;Printing an int %i, a float %f, a bool %b&quot; 1 2.0 true ..." />
+            <marker date="1541306264864" expanded="true" signature="2317:2552" ph="//    type IntAndBool = {intPart:int; boolPart:bool} ..." />
+            <marker date="1541306264864" expanded="true" signature="2554:2704" ph="//    // if then else ..." />
+            <marker date="1541306264864" expanded="true" signature="2710:2819" ph="//    let switch value =  ..." />
+            <marker date="1541306264864" expanded="true" signature="2825:3007" ph="//    type Shape = ..." />
+            <marker date="1541306264864" expanded="true" signature="3009:3417" ph="//    let draw shape = ..." />
+            <marker date="1541306264864" expanded="true" signature="3419:3590" ph="//    let circle  = Circle(10) ..." />
+            <marker date="1541306264864" expanded="true" signature="3593:3717" ph="//module comparing =  ..." />
+            <marker date="1541306264864" expanded="true" signature="3719:3781" ph="//    let sum = sumOfSquares 100 ..." />
+            <marker date="1541306264864" expanded="true" signature="3783:3913" ph="//    let sum2 =  ..." />
+            <marker date="1541306264864" expanded="true" signature="3918:4491" ph="// module sorting = ..." />
+            <marker date="1541306264864" expanded="true" signature="4494:4720" ph="//    let rec quicksort2 = function ..." />
+            <marker date="1541306264864" expanded="true" signature="4774:5005" ph="// module boilerplate =  ..." />
+            <marker date="1541306264864" expanded="true" signature="5007:5237" ph="//    let sumOfOdds n = ..." />
+            <marker date="1541306264864" expanded="true" signature="5239:5563" ph="//    let alternatingSum n = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/options.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264866" expanded="true" signature="29:89" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="105:163" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="216:287" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="234:287" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="308:323" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="363:469" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="378:469" ph=" then ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Seq.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264866" expanded="true" signature="11:414" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="94:293" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="108:238" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="121:229" ph="for row in [1..8] do ..." />
+            <marker date="1541306264866" expanded="true" signature="158:229" ph="for column in [1..8] do ..." />
+            <marker date="1541306264866" expanded="true" signature="312:387" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="337:365" ph=" then ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Query.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264865" expanded="true" signature="12:899" ph="= ..." />
+            <marker date="1541306264865" expanded="true" signature="30:73" ph="{ ..." />
+            <marker date="1541306264865" expanded="true" signature="87:239" ph="=[ ..." />
+            <marker date="1541306264865" expanded="true" signature="292:372" ph="=List.filter(fun p-&gt;p.Age&gt;18) data ..." />
+            <marker date="1541306264865" expanded="true" signature="396:501" ph="=data ..." />
+            <marker date="1541306264865" expanded="true" signature="584:656" ph="= ..." />
+            <marker date="1541306264865" expanded="true" signature="746:858" ph="= ..." />
+            <marker date="1541306264865" expanded="true" signature="762:857" ph=" ..." />
+            <marker date="1541306264865" expanded="true" signature="775:848" ph="for p in data do ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter2/Chapter2Module.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <marker date="1541309792824" expanded="true" signature="44:1073" ph=" ..." />
+            <marker date="1541309792824" expanded="true" signature="88:129" ph=" = ..." />
+            <marker date="1541309792824" expanded="true" signature="157:345" ph=" = ..." />
+            <marker date="1541309792824" expanded="true" signature="378:517" ph=" = ..." />
+            <marker date="1541309792824" expanded="true" signature="558:882" ph="= ..." />
+            <marker date="1541309792824" expanded="true" signature="923:1073" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/functionComposition.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264862" expanded="true" signature="18:175" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264861" expanded="true" signature="0:5984" ph="module Catamorphism = ..." />
+            <marker date="1541306264861" expanded="true" signature="46:103" ph="= ..." />
+            <marker date="1541306264861" expanded="true" signature="56:103" ph="| File of File ..." />
+            <marker date="1541306264861" expanded="true" signature="636:893" ph=" :'r =  ..." />
+            <marker date="1541306264861" expanded="true" signature="708:893" ph=" ..." />
+            <marker date="1541306264861" expanded="true" signature="779:893" ph=" -&gt;  ..." />
+            <marker date="1541306264861" expanded="true" signature="928:1110" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="960:989" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="1027:1069" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="1251:2043" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="1333:1368" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="1450:1552" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="1613:1638" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="1712:1966" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="1747:1966" ph=" ..." />
+            <marker date="1541306264861" expanded="true" signature="1832:1966" ph=" -&gt;  ..." />
+            <marker date="1541306264861" expanded="true" signature="2332:2398" ph="= ..." />
+            <marker date="1541306264861" expanded="true" signature="2342:2398" ph="| Bought of BoughtProduct  ..." />
+            <marker date="1541306264861" expanded="true" signature="2422:2503" ph="= { ..." />
+            <marker date="1541306264861" expanded="true" signature="2524:2608" ph="= { ..." />
+            <marker date="1541306264861" expanded="true" signature="2627:2676" ph="= { ..." />
+            <marker date="1541306264861" expanded="true" signature="2691:2754" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="2769:2833" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="2853:2915" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="2932:3109" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="2948:3109" ph=" {name=&quot;shampoo&quot;; weight=10; components= ..." />
+            <marker date="1541306264861" expanded="true" signature="2998:3107" ph=" ..." />
+            <marker date="1541306264861" expanded="true" signature="3126:3235" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="3142:3235" ph=" {name=&quot;twoPack&quot;; weight=5; components= ..." />
+            <marker date="1541306264861" expanded="true" signature="3191:3233" ph=" ..." />
+            <marker date="1541306264861" expanded="true" signature="3282:3788" ph=" :'r =  ..." />
+            <marker date="1541306264861" expanded="true" signature="3436:3482" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="3510:3788" ph=" ..." />
+            <marker date="1541306264861" expanded="true" signature="3586:3788" ph=" -&gt;  ..." />
+            <marker date="1541306264861" expanded="true" signature="3820:4497" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="3896:3925" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="4002:4421" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="4115:4146" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="4241:4323" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="4785:5983" ph=" = ..." />
+            <marker date="1541306264861" expanded="true" signature="4831:5050" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="5131:5730" ph=" =  ..." />
+            <marker date="1541306264861" expanded="true" signature="5292:5410" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306675486" expanded="true" signature="69:1476" ph="= ..." />
+            <marker date="1541306675486" expanded="true" signature="92:188" ph="{ ..." />
+            <marker date="1541306675486" expanded="true" signature="203:355" ph="={ ..." />
+            <marker date="1541306675486" expanded="true" signature="370:525" ph="={ ..." />
+            <marker date="1541306675486" expanded="true" signature="568:723" ph="={ ..." />
+            <marker date="1541306675486" expanded="true" signature="777:825" ph="{ ..." />
+            <marker date="1541306675486" expanded="true" signature="848:946" ph="={ ..." />
+            <marker date="1541306675486" expanded="true" signature="967:1037" ph=" ..." />
+            <marker date="1541306675486" expanded="true" signature="972:1037" ph="| UserCreated of UserCreated ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Script.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264866" expanded="true" signature="0:114" ph="// Learn more about F## at http://fsharp.net. See the 'F## Tutorial' project ..." />
+            <marker date="1541306264866" expanded="true" signature="264:320" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="285:320" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="696:775" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="730:775" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="778:951" ph="//exception CountingException of string*int ..." />
+            <marker date="1541306264866" expanded="true" signature="957:1059" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="971:1059" ph=" ..." />
+            <marker date="1541306264866" expanded="true" signature="1013:1059" ph="-&gt;  ..." />
+            <marker date="1541306264866" expanded="true" signature="1075:1130" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="1157:1220" ph="= ..." />
+            <marker date="1541306264866" expanded="true" signature="1175:1220" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <marker date="1551529044742" expanded="false" signature="46:84" ph="..." />
+            <marker date="1551529044742" expanded="true" signature="122:1348" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="204:377" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="484:691" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="792:1042" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="1167:1348" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="1374:1560" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="1459:1560" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="1593:2845" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="1726:2008" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="2100:2206" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="2269:2471" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="2535:2845" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="2875:4664" ph=" = ..." />
+            <marker date="1551529044742" expanded="false" signature="2887:2919" ph="..." />
+            <marker date="1551529044742" expanded="true" signature="3011:3100" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="3143:3412" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="3159:3411" ph=" ..." />
+            <marker date="1551529044742" expanded="true" signature="3188:3398" ph=" ..." />
+            <marker date="1551529044742" expanded="true" signature="3252:3398" ph=" -&gt; ..." />
+            <marker date="1551529044742" expanded="true" signature="3311:3398" ph="for subList in insertElement anElement rest do ..." />
+            <marker date="1551529044742" expanded="true" signature="3444:3665" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="3460:3664" ph=" ..." />
+            <marker date="1551529044742" expanded="true" signature="3489:3655" ph=" ..." />
+            <marker date="1551529044742" expanded="true" signature="3544:3655" ph=" -&gt; ..." />
+            <marker date="1551529044742" expanded="true" signature="3671:3880" ph="//[&lt;Property&gt;] ..." />
+            <marker date="1551529044742" expanded="true" signature="4064:4427" ph=" = ..." />
+            <marker date="1551529044742" expanded="true" signature="4140:4427" ph=" ..." />
+            <marker date="1551529044742" expanded="true" signature="4273:4427" ph=" -&gt; ..." />
+            <marker date="1551529044742" expanded="true" signature="4526:4664" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/fsharp.Modularization.fsproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Classes.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264862" expanded="true" signature="33:105" ph=" = ..." />
+            <marker date="1541306264862" expanded="true" signature="136:370" ph=") = ..." />
+            <marker date="1541306264862" expanded="true" signature="387:536" ph="x:int, y:int) =  ..." />
+            <marker date="1541306264862" expanded="true" signature="661:921" ph="rad:int) = ..." />
+            <marker date="1541306264862" expanded="true" signature="845:921" ph="  ..." />
+            <marker date="1541306264862" expanded="true" signature="1118:1194" ph="(key:'a, value:'b) = ..." />
+            <marker date="1541306264862" expanded="true" signature="1218:1360" ph="when 'a : equality and 'b :&gt; System.Collections.ICollection&gt;(name:'a, values:'b) = ..." />
+            <marker date="1541306264862" expanded="true" signature="1408:1558" ph=" ..." />
+            <marker date="1541306264862" expanded="true" signature="1454:1558" ph=" ..." />
+            <marker date="1541306264862" expanded="true" signature="1599:1653" ph="with ..." />
+            <marker date="1541306264862" expanded="true" signature="1752:1794" ph="with ..." />
+            <marker date="1541306264862" expanded="true" signature="1884:2002" ph=") = ..." />
+            <marker date="1541306264862" expanded="true" signature="1944:2002" ph=" = ..." />
+            <marker date="1541306264862" expanded="true" signature="1955:2002" ph="for arg in args do ..." />
+            <marker date="1541306264862" expanded="true" signature="2091:2264" ph=") = ..." />
+            <marker date="1541306264862" expanded="true" signature="2224:2264" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1541306591726" expanded="true" signature="15:481" ph=" =  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1557936296320" expanded="true" signature="15:999" ph=" =  ..." />
+            <marker date="1557936296320" expanded="true" signature="133:413" ph=" = ..." />
+            <marker date="1557936296320" expanded="true" signature="160:413" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+          <folding>
+            <marker date="1557936296317" expanded="true" signature="14:1467" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="231:355" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="395:438" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="608:710" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="756:810" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="857:889" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="905:976" ph=" = ..." />
+            <marker date="1557936296317" expanded="true" signature="993:1073" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter9/Chapter9Module.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="153" column="14" lean-forward="true" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+          <folding>
+            <marker date="1557936536171" expanded="true" signature="44:4892" ph=" ..." />
+            <marker date="1557936536171" expanded="true" signature="50:79" ph="..." />
+            <marker date="1557936536171" expanded="true" signature="250:399" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="577:765" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="589:764" ph=" for row in 1 .. n do  ..." />
+            <marker date="1557936536171" expanded="true" signature="624:759" ph="for col in 1 .. n do     ..." />
+            <marker date="1557936536171" expanded="true" signature="715:759" ph=" then  ..." />
+            <marker date="1557936536171" expanded="true" signature="787:1056" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="799:1055" ph="   for file in System.IO.Directory.GetFiles dir do ..." />
+            <marker date="1557936536171" expanded="true" signature="1083:1270" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="1095:1269" ph="   for file in Directory.GetFiles dir do  ..." />
+            <marker date="1557936536171" expanded="true" signature="1177:1264" ph="for subdir in Directory.GetDirectories dir do  ..." />
+            <marker date="1557936536171" expanded="true" signature="1371:1532" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="1379:1531" ph="(&quot;Amber&quot;, 27, &quot;Design&quot;) ..." />
+            <marker date="1557936536171" expanded="true" signature="1568:1700" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="1823:1912" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="1941:2020" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2039:2151" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2047:2150" ph="   for i in 0 .. 7 do  ..." />
+            <marker date="1557936536171" expanded="true" signature="2082:2145" ph="for j in 0 .. 7 do  ..." />
+            <marker date="1557936536171" expanded="true" signature="2174:2294" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2331:2387" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2418:2503" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2578:2815" ph="r : float, i : float) = ..." />
+            <marker date="1557936536171" expanded="true" signature="2952:3038" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="2974:3038" ph="  ..." />
+            <marker date="1557936536171" expanded="true" signature="3067:3172" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="3089:3172" ph="  ..." />
+            <marker date="1557936536171" expanded="true" signature="3197:3282" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="3219:3282" ph="  ..." />
+            <marker date="1557936536171" expanded="true" signature="3332:3800" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="3359:3800" ph=" ..." />
+            <marker date="1557936536171" expanded="true" signature="3465:3800" ph=" then Param(typ.GenericParameterPosition) ..." />
+            <marker date="1557936536171" expanded="true" signature="3538:3800" ph=" then Named(typ,[||]) ..." />
+            <marker date="1557936536171" expanded="true" signature="3580:3800" ph=" then Array(typ.GetElementType(), typ.GetArrayRank()) ..." />
+            <marker date="1557936536171" expanded="true" signature="3654:3800" ph=" then Ptr(true, typ.GetElementType()) ..." />
+            <marker date="1557936536171" expanded="true" signature="3714:3800" ph=" then Ptr(false, typ.GetElementType()) ..." />
+            <marker date="1557936536171" expanded="true" signature="3824:4233" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="3845:4155" ph="  ..." />
+            <marker date="1557936536171" expanded="true" signature="4176:4233" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="4271:4475" ph=" = ..." />
+            <marker date="1557936536171" expanded="true" signature="4292:4475" ph="  ..." />
+            <marker date="1557936536171" expanded="true" signature="4772:4892" ph="= ..." />
+            <marker date="1557936536171" expanded="true" signature="4778:4892" ph="| AndRepr of Prop * Prop ..." />
+            <marker date="1557936536171" expanded="true" signature="4894:5105" ph="//let (|And|Or|Not|Var|True|) prop = ..." />
+            <marker date="1557936536171" expanded="true" signature="5107:5492" ph="//let rec showProp precedence prop = ..." />
           </folding>
         </state>
       </provider>

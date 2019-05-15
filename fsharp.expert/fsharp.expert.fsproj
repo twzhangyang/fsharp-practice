@@ -12,11 +12,14 @@
         <Compile Include="Chapter4\Chapter4Module.fs" />
         <Compile Include="Chapter5\Chapter5Module.fs" />
         <Compile Include="Chapter6\Chapter6Module.fs" />
+        <Compile Include="Chapter8\Chapter8Module.fs" />
+        <Compile Include="Chapter9\Chapter9Module.fs" />
         <Compile Include="Tests.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="FSharp.Data" Version="3.0.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
         <PackageReference Include="xunit" Version="2.3.1" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />

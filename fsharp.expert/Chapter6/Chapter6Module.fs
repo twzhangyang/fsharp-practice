@@ -1,5 +1,11 @@
+
 module fsharp.expert.Chapter6.Chapter6Module
+open System
 open System.Collections.Generic
+open System.Drawing
+open System.IO
+open System.Runtime.CompilerServices
+open System.Text
 
 type Vector2D =
     { DX : float; DY: float}
@@ -81,8 +87,8 @@ let vv1 = v1 + v1
 type LabelInfo(?text: string, ?font : string) =
     let text = defaultArg text ""
     let font = match font with 
-        | None -> "font"
-        | Some v -> v
+                | None -> "font"
+                | Some v -> v
     
     member x.Text = text
     member x.Font = font
@@ -124,8 +130,173 @@ type  LabelInfoWithPropertySetting() =
     member  v.Name = "lable"
     member val Text = "" with get, set
     
+type IShape =
+    abstract Contains : Point -> bool
+    abstract BoundingBox : Rectangle
+
+//Object interface type using object expression
+let circle ( center : Point, radius : int ) =
+    {   new IShape with 
+            member x.Contains(p : Point) =
+                let dx = float32 ( p.X - center.X)
+                let dy = float32 ( p.Y - center.Y)
+                sqrt(dx * dx + dy * dy) <= float32 radius
+            
+            member x.BoundingBox =
+                Rectangle(center.X - radius, center.Y - radius, 2 * radius + 1, 2 * radius + 1)
+    }    
+
+let bigCircle = circle(Point(0,0), 100)
+let c'' = bigCircle.Contains(Point(70, 70))
+
+
+//
+type MutableCircle() =
+    member val Center = Point(x = 0, y = 0) with get, set
+    member val Raius = 10 with get, set
+    member c.Peerimeter = 2.0 * Math.PI * float c.Raius
+    
+    interface IShape with 
+        member c.Contains ( p: Point ) =
+            let dx = float32 ( p.X - c.Center.X)
+            let dy = float32 ( p.Y - c.Center.Y)
+            sqrt(dx * dx + dy * dy) <= float32 c.Raius
+        
+        member c.BoundingBox =
+            Rectangle( c.Center.X - c.Raius, c.Center.Y - c.Raius, 2 * c.Raius + 1, 2 * c.Raius + 1 )
+            
+type ITextOutputSink =
+    abstract WriteChar : char -> unit
+    abstract  WriteString : string -> unit
+    
+let simpleOutputSink writeCharFunction =
+    {   new ITextOutputSink with 
+            member x.WriteChar(c) = writeCharFunction c
+            member x.WriteString(s) = s |> String.iter x.WriteChar
+    }
+    
+let stringbuilderOutputSink (buf : StringBuilder) =
+    simpleOutputSink ( fun c -> buf.Append(c) |> ignore)
+    
+type CountingOutputSink(writeCharFunction : char -> unit) =
+    let mutable count = 0
+    interface  ITextOutputSink with 
+        member x.WriteChar(c) = 
+            count <- count + 1
+            writeCharFunction(c)
+        member x.WriteString(s) =
+            s |> String.iter ( x :> ITextOutputSink).WriteChar
+    member x.Count = count
+        
+[<AbstractClass>]
+type TextOutputSink() =
+    abstract WriteChar : char -> unit
+    abstract WriteString : string -> unit
+    default x.WriteString s = s |> String.iter x.WriteChar 
+    
+type HtmlWrite() =
+    let mutable count = 0
+    let sink =
+        {   new TextOutputSink() with 
+                member x.WriteChar c =
+                    count <- count + 1
+                    System.Console.Write c
+        }
+    member x.CharCount = count
+    member x.OpenTag(tagName) = sink.WriteString(sprintf "<%s>" tagName)
+    member x.CloseTag(tagName) = sink.WriteString(sprintf "</%s>" tagName)
+    member x.WriteString(s) = sink.WriteString(s)
+    
+type CountingOutputSinkByInheritance() =
+    inherit TextOutputSink()
+    
+    let mutable count = 0
+    member sink.Count = count
+    default sink.WriteChar c =
+        count <- count - 1
+        System.Console.Write(c)
+
+[<AbstractClass>]        
+type ByteOutputSink() =
+    inherit TextOutputSink()
+    abstract WriteByte : byte -> unit
+    abstract WriteBytes : byte[] -> unit
+    default sink.WriteChar c = sink.WriteBytes(Encoding.UTF8.GetBytes [|c|])
+    override sink.WriteString s = sink.WriteBytes(Encoding.UTF8.GetBytes s)
+    default sink.WriteBytes b = b |> Array.iter sink.WriteByte
+
+let myWriteStirngToFile() = 
+    use outp = File.CreateText("playlist.txt")
+    outp.WriteLine("Enchanted")
+    outp.WriteLine("Putyour records on")
+    
+let myWriteStringToFile' () =
+    let outp = File.CreateText("playlist.text")
+    try 
+        outp.WriteLine("Enchanted")
+        outp.WriteLine("put your records on")    
+    finally 
+        (outp :> System.IDisposable).Dispose()
+        
+// Extending existing types and moudles        
+type System.Int32 with 
+    member i.IsPrime = true 
+    member i.Hello = "hello"
+    
+[<Extension>]    
+type Int32Extensions() =
+    [<Extension>]
+    static member IsPrime(i: int) = true 
+    
+    [<Extension>]
+    static member Hello(i:int) = "hello"
+    
+    
+module List =
+    let rec pairwise l =
+        match l with 
+        | [] | [_] -> []
+        | h1 :: ((h2 :: _) as t) -> (h1, h2) :: pairwise t
+        
+let pairwise() =
+    let a = List.pairwise [1; 2; 3; 4;]
+    a
+
+[<Class>]    
+type Vector2D'''(dx : float, dy : float) =
+    let len = sqrt(dx * dx + dy * dy)
+    member v.DX = dx
+    member v.DY = dy
+    member v.Length = len
+    
+
+type IShape' =
+    interface 
+        abstract Contains : Point -> bool
+        abstract BoundingBox : Rectangle
+    end 
+    
+type IShape'' =
+    abstract Contains : Point -> bool
+    abstract  BoundingBox : Rectangle
+    
+[<Struct>]    
+type Vector2DStruct(dx : float, dy : float) =
+    member v.DX = dx
+    member v.DY = dy
+    member v.Length = sqrt ( dx * dx + dy * dy)
+    
+//Working with null values
+let switchOnType ( a : obj) =
+    match a with 
+    | null -> printf "null!"
+    | :? System.Exception as e -> printf "An exception: %s" e.Message
+    | :? System.Int32 as I -> printf "An integer: %d" I
+    | :? System.DateTime as d ->printf "A date/time : %O" d
+    | _ -> printf "Some other kind of object"
     
 
     
 
-    
+            
+

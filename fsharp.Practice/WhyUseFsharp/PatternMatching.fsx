@@ -2,7 +2,7 @@
 module Partten = 
     let firstPart, secondPart, _ = (1,2,3)
     
-    let elem1::elem2::rest = [1..10]
+    let elem1::elem2::rest= [1..10]
     
     let listMatcher aList =
         match aList with
