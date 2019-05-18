@@ -1,4 +1,5 @@
-﻿module Catamorphism =
+﻿namespace Catamorphism
+module Recursive =
     type FileSystemItem =
         | File of File
         | Directory of Directory

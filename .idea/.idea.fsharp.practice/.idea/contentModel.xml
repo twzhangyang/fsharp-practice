@@ -105,6 +105,15 @@
         <e p="fsharp.Practice.fsproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
+        <e p="Railway" t="Include">
+          <e p="Controllers.fs" t="Include" />
+          <e p="DataAccessLayer.fs" t="Include" />
+          <e p="DomainModel.fs" t="Include" />
+          <e p="DomainPrimitiveTypes.fs" t="Include" />
+          <e p="DtoConverter.fs" t="Include" />
+          <e p="Rop.fs" t="Include" />
+          <e p="SqlDatabase.fs" t="Include" />
+        </e>
         <e p="Recursive" t="Include">
           <e p="Catamorphism.fs" t="Include" />
           <e p="RecursiveTutorial.fs" t="Include" />
