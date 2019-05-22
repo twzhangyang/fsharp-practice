@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+        <GenerateProgramFile>false</GenerateProgramFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Railway\Rop.fs" />
+        <Compile Include="Railway\SqlDatabase.fs" />
+        <Compile Include="Railway\DomainPrimitiveTypes.fs" />
+        <Compile Include="Railway\DomainModel.fs" />
+        <Compile Include="Railway\DataAccessLayer.fs" />
+        <Compile Include="Railway\DtoConverter.fs" />
+        <Compile Include="Railway\Controllers.fs" />
+        <Compile Include="Recursive\Catamorphism.fs" />
+        <Compile Include="Recursive\GenericTreeType.fs" />
+        <Compile Include="Recursive\Recursive.fs" />
+        <Compile Include="Recursive\RecursiveTutorial.fs" />
+        <Compile Include="WhyUseFsharp\Types.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.5" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+        <PackageReference Include="xunit" Version="2.4.0" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="ThinkingFunctionally\Currying.fsx" />
+      <None Include="ThinkingFunctionally\functionComposition.fsx" />
+      <None Include="ThinkingFunctionally\GenericTypes.fsx" />
+      <None Include="ThinkingFunctionally\Partial.fsx" />
+      <None Include="WhyUseFsharp\Classes.fsx" />
+      <None Include="WhyUseFsharp\Composed.fsx" />
+      <None Include="WhyUseFsharp\Exceptionhandling.fsx" />
+      <None Include="WhyUseFsharp\Measuretype.fsx" />
+      <None Include="WhyUseFsharp\PatternMatching.fsx" />
+      <None Include="WhyUseFsharp\Seamless.fsx" />
+      <None Include="WhyUseFsharp\ShoppingCart.fsx" />
+      <None Include="WhyUseFsharp\Tutorial.fsx" />
+      <Compile Include="Tests.fs" />
+      <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>

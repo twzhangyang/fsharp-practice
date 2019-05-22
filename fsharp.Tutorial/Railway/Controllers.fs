@@ -1,14 +1,15 @@
 namespace fsharp.Practice.Railway.Controllers
 open System
-open System.Net
-open System.Web.Http
-open System.Web.Http.Results
+open System.Diagnostics
+open Microsoft.AspNetCore.Mvc
+open Microsoft.AspNetCore.Mvc
 open fsharp.Practice.Railway
 open fsharp.Practice.Railway.DomainModel
 open fsharp.Practice.Railway.Rop
 open fsharp.Practice.Railway.DtoConverter
 
 module CustomersControllerHelper =
+    open System.Net
 
     type ResponseMessage =
         | NotFound
@@ -63,22 +64,21 @@ module CustomersControllerHelper =
         |> List.map (sprintf "DomainEvent: %A")
         |> List.reduce (+)
         
-    let toHttpResult (controller:ApiController) msgs : IHttpActionResult =
+    let toHttpResult (controller: ControllerBase) msgs : IActionResult =
         match primaryResponse msgs with
         | NotFound ->
-            upcast NotFoundResult(controller)
+            upcast NotFoundResult()
         | BadRequest _ ->
             let validationMsg = badRequestToStr msgs
-            upcast NegotiatedContentResult(HttpStatusCode.BadRequest, validationMsg, controller)
-        
+            upcast  controller.BadRequest(validationMsg) 
         | InternalServerError msg ->
-            upcast NegotiatedContentResult(HttpStatusCode.InternalServerError, msg, controller)
+            upcast controller.StatusCode((int)HttpStatusCode.InternalServerError, msg)
         | DomainEvent _ ->
             let eventsMsg = domainEventsToStr msgs
-            upcast NegotiatedContentResult(HttpStatusCode.OK, eventsMsg, controller)
+            upcast controller.Ok(eventsMsg)
             
 type CustomersController(fsDao:DataAccessLayer.ICustomerDao) as this =
-    inherit ApiController()
+    inherit ControllerBase()
     
     let getByIdR = bindR fsDao.GetById
     let customerToDtoR = mapR DtoConvert.customerToDto
@@ -86,20 +86,16 @@ type CustomersController(fsDao:DataAccessLayer.ICustomerDao) as this =
     let upsertCustomerR = bindR fsDao.Upsert
     let createCustomerIdR = bindR createCustomerId
     
-    let ok content =
-        if content = box () then
-            OkResult(this) :> IHttpActionResult
-        else
-            NegotiatedContentResult(HttpStatusCode.OK, content, this) :> IHttpActionResult
+    let ok value = (OkObjectResult value) :> IActionResult
         
-    let okR result = mapR ok result   
+    let okR result =  mapR ok result   
         
     let toHttpResult result =
         result |> valueOrDefault (CustomersControllerHelper.toHttpResult this)
         
         
     let log format (objs:obj[]) =
-        Console.WriteLine("log" + format, objs)
+        Trace.WriteLine("log" + String.Format(format, objs))
         
     let logSuccessR format result =
         let logSuccess objj = log format [|obj|]
@@ -127,7 +123,7 @@ type CustomersController(fsDao:DataAccessLayer.ICustomerDao) as this =
     
     [<Route("customerE/{customerId}")>]
     [<HttpGet>]
-    member this.GetWithErrorHandling(customerId:int) : IHttpActionResult =
+    member this.GetWithErrorHandling(customerId:int) : IActionResult =
         succeed customerId
         |> logSuccessR "GetWithErrorHandling {0}"
         |> createCustomerIdR
@@ -140,7 +136,7 @@ type CustomersController(fsDao:DataAccessLayer.ICustomerDao) as this =
         
     [<Route("customerE/{customerId")>]
     [<HttpPost>]
-    member this.Post(customerId:int, [<FromBody>]dto:CustomerDto) : IHttpActionResult =
+    member this.Post(customerId:int, [<FromBody>]dto:CustomerDto) : IActionResult =
         dto.Id <- customerId
         
         succeed dto

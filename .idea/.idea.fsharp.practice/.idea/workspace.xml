@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd56869-515b-4399-a497-bc3d799f5718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/Controllers.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/DataAccessLayer.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/DomainModel.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/DomainPrimitiveTypes.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/Rop.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Railway/SqlDatabase.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Recursive/GenericTreeType.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fsharp.Practice/Recursive/Recursive.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fsharp.practice/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.Practice/Recursive/RecursiveTutorial.fs" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/Recursive/RecursiveTutorial.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fsharp.Practice/fsharp.Practice.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/fsharp.Practice.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fsharp.Practice/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.Practice/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsharp.practice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/fsharp.practice.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,164 +22,360 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Controllers.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+            <state relative-caret-position="-327">
+              <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
               <folding>
-                <marker date="1557936590879" expanded="true" signature="45:9098" ph=" ..." />
-                <marker date="1557936590879" expanded="false" signature="51:178" ph="..." />
-                <marker date="1557936590879" expanded="true" signature="194:648" ph="= ..." />
-                <marker date="1557936590879" expanded="true" signature="775:1222" ph="dx: float, dy : float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="1366:1603" ph="dx, dy) = ..." />
-                <marker date="1557936590879" expanded="true" signature="1626:1873" ph="dx: float, dy: float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="1897:2144" ph="items: seq&lt;int * float&gt;) = ..." />
-                <marker date="1557936590879" expanded="true" signature="2047:2144" ph=" ..." />
-                <marker date="1557936590879" expanded="true" signature="2068:2144" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="2107:2144" ph=" then elems.[id] ..." />
-                <marker date="1557936590879" expanded="true" signature="2246:2605" ph="dx: float, dy: float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="2395:2457" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="2543:2605" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="2690:2990" ph="?text: string, ?font : string) = ..." />
-                <marker date="1557936590879" expanded="true" signature="2769:2851" ph=" = match font with  ..." />
-                <marker date="1557936590879" expanded="true" signature="3013:3649" ph="dx :float, dy: float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="3248:3441" ph=" ..." />
-                <marker date="1557936590879" expanded="true" signature="3329:3441" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="3475:3649" ph=" ..." />
-                <marker date="1557936590879" expanded="true" signature="3538:3649" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="3682:3878" ph="rows: int, cols: int) = ..." />
-                <marker date="1557936590879" expanded="true" signature="3778:3878" ph="  ..." />
-                <marker date="1557936590879" expanded="true" signature="3964:4021" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="4053:4129" ph="= ..." />
-                <marker date="1557936590879" expanded="true" signature="4222:4602" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="4243:4602" ph=" with  ..." />
-                <marker date="1557936590879" expanded="true" signature="4290:4452" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="4498:4596" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="4716:5241" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="4899:5241" ph=" with  ..." />
-                <marker date="1557936590879" expanded="true" signature="4944:5099" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="5137:5241" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="5276:5358" ph="= ..." />
-                <marker date="1557936590879" expanded="true" signature="5402:5567" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="5432:5567" ph=" with  ..." />
-                <marker date="1557936590879" expanded="true" signature="5622:5681" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="5711:6030" ph="writeCharFunction : char -&gt; unit) = ..." />
-                <marker date="1557936590879" expanded="true" signature="5803:6003" ph=" with  ..." />
-                <marker date="1557936590879" expanded="true" signature="5839:5906" ph=" =  ..." />
-                <marker date="1557936590879" expanded="true" signature="5938:6003" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="6078:6220" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="6242:6685" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="6284:6456" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="6319:6456" ph=" with  ..." />
-                <marker date="1557936590879" expanded="true" signature="6362:6446" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="6728:6911" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="6850:6911" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="6959:7286" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="7313:7436" ph=" =  ..." />
-                <marker date="1557936590879" expanded="true" signature="7469:7674" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="7527:7674" ph="  ..." />
-                <marker date="1557936590879" expanded="true" signature="7626:7674" ph="  ..." />
-                <marker date="1557936590879" expanded="true" signature="7750:7813" ph="with  ..." />
-                <marker date="1557936590879" expanded="true" signature="7858:7985" ph=") = ..." />
-                <marker date="1557936590879" expanded="true" signature="8007:8140" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="8032:8140" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="8055:8140" ph="  ..." />
-                <marker date="1557936590879" expanded="true" signature="8164:8212" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="8245:8376" ph="dx : float, dy : float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="8396:8495" ph="= ..." />
-                <marker date="1557936590879" expanded="true" signature="8524:8601" ph="= ..." />
-                <marker date="1557936590879" expanded="true" signature="8642:8757" ph="dx : float, dy : float) = ..." />
-                <marker date="1557936590879" expanded="true" signature="8817:9098" ph=" = ..." />
-                <marker date="1557936590879" expanded="true" signature="8836:9098" ph="  ..." />
+                <marker date="1558534290831" expanded="true" signature="51:286" ph="..." />
+                <marker date="1558534290831" expanded="true" signature="320:2384" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="369:499" ph="= ..." />
+                <marker date="1558534290831" expanded="true" signature="379:499" ph="| NotFound ..." />
+                <marker date="1558534290831" expanded="true" signature="529:1219" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="554:1219" ph=" ..." />
+                <marker date="1558534290831" expanded="true" signature="1270:1356" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="1399:1591" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="1632:1820" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="1885:2384" ph=" : IActionResult = ..." />
+                <marker date="1558534290831" expanded="true" signature="1943:2384" ph=" ..." />
+                <marker date="1558534290831" expanded="true" signature="2024:2137" ph=" -&gt; ..." />
+                <marker date="1558534290831" expanded="true" signature="2286:2384" ph=" -&gt; ..." />
+                <marker date="1558534290831" expanded="true" signature="2423:4645" ph="fsDao:DataAccessLayer.ICustomerDao) as this = ..." />
+                <marker date="1558534290831" expanded="true" signature="2898:2979" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3029:3092" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3135:3235" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3271:3398" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3447:3886" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3473:3592" ph=" = function ..." />
+                <marker date="1558534290831" expanded="true" signature="3653:3726" ph=" = ..." />
+                <marker date="1558534290831" expanded="true" signature="3758:3886" ph=" (fun (_, msgs) -&gt; ..." />
+                <marker date="1558534290831" expanded="true" signature="3766:3872" ph=", msgs) -&gt; ..." />
+                <marker date="1558534290831" expanded="true" signature="3898:3945" ph="Route(&quot;customerE/{customerId}&quot;)&gt;] ..." />
+                <marker date="1558534290831" expanded="true" signature="4000:4232" ph=" : IActionResult = ..." />
+                <marker date="1558534290831" expanded="true" signature="4257:4304" ph="Route(&quot;customerE/{customerId&quot;)&gt;] ..." />
+                <marker date="1558534290831" expanded="true" signature="4372:4645" ph=" : i = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DomainPrimitiveTypes.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding>
-                <marker date="1558146468733" expanded="true" signature="51:580" ph=" ..." />
-                <marker date="1558146468733" expanded="true" signature="281:580" ph=" = ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DomainModel.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding>
-                <marker date="1558146468720" expanded="true" signature="42:2048" ph=" ..." />
-                <marker date="1558146468720" expanded="false" signature="48:125" ph="..." />
-                <marker date="1558146468720" expanded="true" signature="146:205" ph="= { ..." />
-                <marker date="1558146468720" expanded="true" signature="223:302" ph="= { ..." />
-                <marker date="1558146468720" expanded="true" signature="325:766" ph="= ..." />
-                <marker date="1558146468720" expanded="true" signature="332:766" ph="| CustomerIsRequired ..." />
-                <marker date="1558146468720" expanded="true" signature="802:1096" ph=" = ..." />
-                <marker date="1558146468720" expanded="true" signature="816:1042" ph=" = function ..." />
-                <marker date="1558146468720" expanded="true" signature="1129:1366" ph=" = ..." />
-                <marker date="1558146468720" expanded="true" signature="1143:1313" ph=" = function ..." />
-                <marker date="1558146468720" expanded="true" signature="1393:1631" ph=" = ..." />
-                <marker date="1558146468720" expanded="true" signature="1407:1577" ph=" = function ..." />
-                <marker date="1558146468720" expanded="true" signature="1668:1857" ph=" = ..." />
-                <marker date="1558146468720" expanded="true" signature="1682:1800" ph=" = function ..." />
-                <marker date="1558146468720" expanded="true" signature="1904:1954" ph=" = ..." />
-                <marker date="1558146468720" expanded="true" signature="2000:2048" ph=" = ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/SqlDatabase.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-              <folding>
-                <marker date="1558154390457" expanded="true" signature="116:301" ph=") = ..." />
-                <marker date="1558154390457" expanded="true" signature="380:1229" ph=") = ..." />
-                <marker date="1558154390457" expanded="true" signature="473:520" ph=" : DbCustomer seq = ..." />
-                <marker date="1558154390457" expanded="true" signature="574:876" ph=" = ..." />
-                <marker date="1558154390457" expanded="true" signature="625:876" ph=" then ..." />
-                <marker date="1558154390457" expanded="true" signature="725:876" ph=" ..." />
-                <marker date="1558154390457" expanded="true" signature="938:1229" ph=" = ..." />
-                <marker date="1558154390457" expanded="true" signature="982:1229" ph=" then ..." />
-                <marker date="1558154390457" expanded="true" signature="1096:1229" ph=" ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DtoConverter.fs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1541306675486" expanded="true" signature="69:1476" ph="= ..." />
-                <marker date="1541306675486" expanded="true" signature="92:188" ph="{ ..." />
-                <marker date="1541306675486" expanded="true" signature="203:355" ph="={ ..." />
-                <marker date="1541306675486" expanded="true" signature="370:525" ph="={ ..." />
-                <marker date="1541306675486" expanded="true" signature="568:723" ph="={ ..." />
-                <marker date="1541306675486" expanded="true" signature="777:825" ph="{ ..." />
-                <marker date="1541306675486" expanded="true" signature="848:946" ph="={ ..." />
-                <marker date="1541306675486" expanded="true" signature="967:1037" ph=" ..." />
-                <marker date="1541306675486" expanded="true" signature="972:1037" ph="| UserCreated of UserCreated ..." />
+                <marker date="1558154390451" expanded="true" signature="86:271" ph="() = ..." />
+                <marker date="1558154390451" expanded="true" signature="308:1750" ph=" = ..." />
+                <marker date="1558154390451" expanded="true" signature="320:446" ph="..." />
+                <marker date="1558154390451" expanded="true" signature="488:882" ph=" = ..." />
+                <marker date="1558154390451" expanded="true" signature="512:882" ph=" then ..." />
+                <marker date="1558154390451" expanded="true" signature="936:1327" ph=" = ..." />
+                <marker date="1558154390451" expanded="true" signature="960:1327" ph=" then ..." />
+                <marker date="1558154390451" expanded="true" signature="1042:1177" ph=" = ..." />
+                <marker date="1558154390451" expanded="true" signature="1377:1750" ph=" = ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DataAccessLayer.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Program.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+            <state>
+              <folding>
+                <marker date="1558519028247" expanded="true" signature="0:47" ph="module Program = let [&lt;EntryPoint&gt;] main _ = 0 ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/WhyUseFsharp/Tutorial.fsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2142">
+              <folding>
+                <marker date="1541306264864" expanded="true" signature="0:1211" ph="// This sample will guide you through elements of the F## language. ..." />
+                <marker date="1541306264864" expanded="true" signature="1386:1898" ph="/// 3. Triple-slash comments.  These are used for documenting functions, types, and so on. ..." />
+                <marker date="1541306264864" expanded="true" signature="1901:2083" ph="// Open namespaces using the 'open' keyword. ..." />
+                <marker date="1541306264864" expanded="true" signature="2098:2402" ph="/// A module is a grouping of F## code, such as values, types, and function values.  ..." />
+                <marker date="1541306264864" expanded="true" signature="2428:3286" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="2576:2706" ph="/// This computed a new number by some arithmetic.  Numeric types are converted using ..." />
+                <marker date="1541306264864" expanded="true" signature="3289:3565" ph="/// Values in F## are immutable by default.  They cannot be changed ..." />
+                <marker date="1541306264864" expanded="true" signature="3585:4336" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="3593:3825" ph="/// Binding a value to a name via 'let' makes it immutable. ..." />
+                <marker date="1541306264864" expanded="true" signature="4046:4243" ph="// When mutating a value, use '&lt;-' to assign a new value. ..." />
+                <marker date="1541306264864" expanded="true" signature="4339:4567" ph="/// Much of F## programming consists of defining functions that transform input data to produce ..." />
+                <marker date="1541306264864" expanded="true" signature="4589:6096" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="4598:4809" ph="/// You use 'let' to define a function. This one accepts an integer argument and returns an integer.  ..." />
+                <marker date="1541306264864" expanded="true" signature="4851:4991" ph="/// Apply the function, naming the function return result using 'let'.  ..." />
+                <marker date="1541306264864" expanded="true" signature="5036:5193" ph="// This line uses '%d' to print the result as an integer. This is type-safe. ..." />
+                <marker date="1541306264864" expanded="true" signature="5571:5720" ph="/// Conditionals use if/then/elid/elif/else. ..." />
+                <marker date="1541306264864" expanded="true" signature="5746:5859" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="5770:5859" ph=" then  ..." />
+                <marker date="1541306264864" expanded="true" signature="6099:6475" ph="/// Booleans are fundamental data types in F##.  Here are some examples of Booleans and conditional logic. ..." />
+                <marker date="1541306264864" expanded="true" signature="6491:6858" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="6861:7083" ph="/// Strings are fundamental data types in F##.  Here are some examples of Strings and basic String manipulation. ..." />
+                <marker date="1541306264864" expanded="true" signature="7109:7968" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="7207:7343" ph="/// Strings can also use @ to create a verbatim string literal. ..." />
+                <marker date="1541306264864" expanded="true" signature="7733:7903" ph="/// Substrings use the indexer notation.  This line extracts the first 7 characters as a substring. ..." />
+                <marker date="1541306264864" expanded="true" signature="7971:8153" ph="/// Tuples are simple combinations of data values into a combined value. ..." />
+                <marker date="1541306264864" expanded="true" signature="8167:9836" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="8239:8451" ph="/// A function that swaps the order of two values in a tuple.  ..." />
+                <marker date="1541306264864" expanded="true" signature="8560:8661" ph="/// A tuple consisting of an integer, a string, ..." />
+                <marker date="1541306264864" expanded="true" signature="8760:8888" ph="/// A simple tuple of integers with a type annotation. ..." />
+                <marker date="1541306264864" expanded="true" signature="8929:9318" ph="/// Tuples are normally objects, but they can also be represented as structs. ..." />
+                <marker date="1541306264864" expanded="true" signature="9422:9586" ph="// Although you cannot implicitly convert between struct tuples and reference tuples, ..." />
+                <marker date="1541306264864" expanded="true" signature="9839:10398" ph="/// The F## pipe operators ('|&gt;', '&lt;|', etc.) and F## composition operators ('&gt;&gt;', '&lt;&lt;') ..." />
+                <marker date="1541306264864" expanded="true" signature="10429:14121" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="10712:10842" ph="/// Given a list of integers, it filters out the even numbers, ..." />
+                <marker date="1541306264864" expanded="true" signature="10882:11032" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="11162:11416" ph="/// A shorter way to write 'squareOddValuesAndAddOne' is to nest each ..." />
+                <marker date="1541306264864" expanded="true" signature="11462:11534" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="11672:11920" ph="/// A preferred way to write 'squareOddValuesAndAddOne' is to use F## pipe operators. ..." />
+                <marker date="1541306264864" expanded="true" signature="11968:12068" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="12210:12552" ph="/// You can shorten 'squareOddValuesAndAddOnePipeline' by moving the second `List.map` call ..." />
+                <marker date="1541306264864" expanded="true" signature="12607:12705" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="12861:13876" ph="/// Lastly, you can eliminate the need to explicitly take 'values' in as a parameter by using '&gt;&gt;' ..." />
+                <marker date="1541306264864" expanded="true" signature="13920:13979" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="14124:14469" ph="/// Lists are ordered, immutable, singly-linked lists.  They are eager in their evaluation. ..." />
+                <marker date="1541306264864" expanded="true" signature="14482:16370" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="14783:14823" ph=" = [ ..." />
+                <marker date="1541306264864" expanded="true" signature="14917:15026" ph="/// Lists can also be generated by computations. This is a list containing  ..." />
+                <marker date="1541306264864" expanded="true" signature="15043:15215" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="15056:15214" ph=" for month in 1 .. 12 do ..." />
+                <marker date="1541306264864" expanded="true" signature="15095:15213" ph="for day in 1 .. System.DateTime.DaysInMonth(2017, month) do  ..." />
+                <marker date="1541306264864" expanded="true" signature="15362:15515" ph="/// Computations can include conditionals.  This is a list containing the tuples ..." />
+                <marker date="1541306264864" expanded="true" signature="15536:15680" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="15549:15679" ph=" for i in 0 .. 7 do ..." />
+                <marker date="1541306264864" expanded="true" signature="15583:15678" ph="for j in 0 .. 7 do  ..." />
+                <marker date="1541306264864" expanded="true" signature="15637:15678" ph=" then  ..." />
+                <marker date="1541306264864" expanded="true" signature="15686:15930" ph="/// Lists can be transformed using 'List.map' and other functional programming combinators. ..." />
+                <marker date="1541306264864" expanded="true" signature="15946:16004" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="16011:16140" ph="/// There are many other list combinations. The following computes the sum of the squares of the  ..." />
+                <marker date="1541306264864" expanded="true" signature="16161:16266" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="16373:16802" ph="/// Arrays are fixed-size, mutable collections of elements of the same type. ..." />
+                <marker date="1541306264864" expanded="true" signature="16816:18478" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="17279:17391" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="17293:17389" ph=" for word in array2 do ..." />
+                <marker date="1541306264864" expanded="true" signature="17352:17388" ph=" then  ..." />
+                <marker date="1541306264864" expanded="true" signature="17716:17770" ph="for word in array4 do  ..." />
+                <marker date="1541306264864" expanded="true" signature="17776:18034" ph="// You can modify the contents of an an array element by using the left arrow assignment operator. ..." />
+                <marker date="1541306264864" expanded="true" signature="18067:18248" ph="/// You can transform arrays using 'Array.map' and other functional programming operations. ..." />
+                <marker date="1541306264864" expanded="true" signature="18276:18389" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="18481:18978" ph="/// Sequences are a logical series of elements, all of the same type.  These are a more general type than Lists and Arrays. ..." />
+                <marker date="1541306264864" expanded="true" signature="18995:20158" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="19380:19498" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="19397:19497" ph=" for word in seq2 do ..." />
+                <marker date="1541306264864" expanded="true" signature="19457:19496" ph=" then  ..." />
+                <marker date="1541306264864" expanded="true" signature="19651:19781" ph="/// This is an infinite sequence which is a random walk. ..." />
+                <marker date="1541306264864" expanded="true" signature="19806:19893" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="19822:19892" ph=" yield x ..." />
+                <marker date="1541306264864" expanded="true" signature="19999:20076" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="20161:20497" ph="/// Recursive functions can call themselves. In F##, functions are only recursive ..." />
+                <marker date="1541306264864" expanded="true" signature="20523:22106" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="20546:20691" ph="/// This example shows a recursive function that computes the factorial of an  ..." />
+                <marker date="1541306264864" expanded="true" signature="20715:20767" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="20824:21069" ph="/// Computes the greatest common factor of two integers. ..." />
+                <marker date="1541306264864" expanded="true" signature="21106:21231" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="21125:21231" ph=" then b ..." />
+                <marker date="1541306264864" expanded="true" signature="21151:21231" ph=" then greatestCommonFactor a (b - a) ..." />
+                <marker date="1541306264864" expanded="true" signature="21426:21505" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="21450:21505" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="21658:21772" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="21682:21772" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="21782:21918" ph="/// This invokes the tail recursive helper function, providing '0' as a seed accumulator. ..." />
+                <marker date="1541306264864" expanded="true" signature="22109:22369" ph="/// Records are an aggregate of named values, with optional members (such as methods). ..." />
+                <marker date="1541306264864" expanded="true" signature="22388:24784" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="22476:22562" ph="=  ..." />
+                <marker date="1541306264864" expanded="true" signature="22487:22562" ph="{ Name     : string ..." />
+                <marker date="1541306264864" expanded="true" signature="22655:22747" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="22668:22746" ph=" Name = &quot;Alf&quot;  ..." />
+                <marker date="1541306264864" expanded="true" signature="22910:23265" ph="/// This example shows how to use &quot;copy-and-update&quot; on record values. It creates  ..." />
+                <marker date="1541306264864" expanded="true" signature="23282:23377" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="23295:23376" ph=" contact1 with  ..." />
+                <marker date="1541306264864" expanded="true" signature="23383:23516" ph="/// This example shows how to write a function that processes a record value. ..." />
+                <marker date="1541306264864" expanded="true" signature="23557:23649" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="23800:24131" ph="= ..." />
+                <marker date="1541306264864" expanded="true" signature="23810:23913" ph="{ Name     : string ..." />
+                <marker date="1541306264864" expanded="true" signature="24012:24131" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="24157:24287" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="24170:24286" ph=" Name = &quot;Alf&quot;  ..." />
+                <marker date="1541306264864" expanded="true" signature="24456:24655" ph="/// Records can also be represented as structs via the 'Struct' attribute. ..." />
+                <marker date="1541306264864" expanded="true" signature="24698:24784" ph="=  ..." />
+                <marker date="1541306264864" expanded="true" signature="24709:24784" ph="{ Name     : string ..." />
+                <marker date="1541306264864" expanded="true" signature="24787:25072" ph="/// Discriminated Unions (DU for short) are values which could be a number of named forms or cases. ..." />
+                <marker date="1541306264864" expanded="true" signature="25099:29909" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="25179:25253" ph="=  ..." />
+                <marker date="1541306264864" expanded="true" signature="25190:25253" ph="| Hearts  ..." />
+                <marker date="1541306264864" expanded="true" signature="25356:25757" ph="=  ..." />
+                <marker date="1541306264864" expanded="true" signature="25416:25490" ph="| Value of int ..." />
+                <marker date="1541306264864" expanded="true" signature="25604:25757" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="25621:25756" ph=" yield Ace ..." />
+                <marker date="1541306264864" expanded="true" signature="25798:25944" ph="/// This is a record type that combines a Suit and a Rank. ..." />
+                <marker date="1541306264864" expanded="true" signature="26088:26251" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="26101:26250" ph=" for suit in [ Hearts; Diamonds; Clubs; Spades] do ..." />
+                <marker date="1541306264864" expanded="true" signature="26166:26249" ph="for rank in Rank.GetAllRanks() do  ..." />
+                <marker date="1541306264864" expanded="true" signature="26345:26788" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="26371:26555" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="26404:26555" ph="  ..." />
+                <marker date="1541306264864" expanded="true" signature="26578:26746" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="26611:26746" ph="  ..." />
+                <marker date="1541306264864" expanded="true" signature="26874:26958" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="26886:26958" ph="for card in fullDeck do  ..." />
+                <marker date="1541306264864" expanded="true" signature="26964:27317" ph="// Single-case DUs are often used for domain modeling.  This can buy you extra type safety ..." />
+                <marker date="1541306264864" expanded="true" signature="27956:28171" ph="/// Disciminated Unions also support recursive definitions. ..." />
+                <marker date="1541306264864" expanded="true" signature="28188:28266" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="28199:28266" ph="| Empty ..." />
+                <marker date="1541306264864" expanded="true" signature="28272:28425" ph="/// Check if an item exists in the binary search tree. ..." />
+                <marker date="1541306264864" expanded="true" signature="28453:28686" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="28478:28686" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="28535:28686" ph=" -&gt; ..." />
+                <marker date="1541306264864" expanded="true" signature="28598:28686" ph=" then (exists item left) // Check the left subtree. ..." />
+                <marker date="1541306264864" expanded="true" signature="28720:28930" ph="/// Inserts an item in the Binary Search Tree. ..." />
+                <marker date="1541306264864" expanded="true" signature="28958:29302" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="28983:29302" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="29066:29302" ph=" -&gt; ..." />
+                <marker date="1541306264864" expanded="true" signature="29187:29302" ph=" then Node(x, insert item left, right) // Call into left subtree. ..." />
+                <marker date="1541306264864" expanded="true" signature="29336:29760" ph="/// Discriminated Unions can also be represented as structs via the 'Struct' attribute. ..." />
+                <marker date="1541306264864" expanded="true" signature="29791:29909" ph="= ..." />
+                <marker date="1541306264864" expanded="true" signature="29801:29909" ph="| Circle of radius: float ..." />
+                <marker date="1541306264864" expanded="true" signature="29912:30355" ph="/// Pattern Matching is a feature of F## that allows you to utilize Patterns, ..." />
+                <marker date="1541306264864" expanded="true" signature="30378:33565" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="30450:30505" ph="= { ..." />
+                <marker date="1541306264864" expanded="true" signature="30589:30781" ph="= ..." />
+                <marker date="1541306264864" expanded="true" signature="30599:30781" ph="| Engineer of engineer: Person ..." />
+                <marker date="1541306264864" expanded="true" signature="30787:30890" ph="/// Count everyone underneath the employee in the management hierarchy, ..." />
+                <marker date="1541306264864" expanded="true" signature="30931:31226" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="30960:31226" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="31233:31377" ph="/// Find all managers/executives named &quot;Dave&quot; who do not have any reports. ..." />
+                <marker date="1541306264864" expanded="true" signature="31437:31681" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="31484:31680" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="31812:31981" ph="/// You can also use the shorthand function construct for pattern matching,  ..." />
+                <marker date="1541306264864" expanded="true" signature="32011:32092" ph=" = f &gt;&gt; function ..." />
+                <marker date="1541306264864" expanded="true" signature="32232:32312" ph=" ..." />
+                <marker date="1541306264864" expanded="true" signature="32541:32860" ph="// Active Patterns are another powerful construct to use with pattern matching. ..." />
+                <marker date="1541306264864" expanded="true" signature="33121:33352" ph=" = function ..." />
+                <marker date="1541306264864" expanded="true" signature="33568:33877" ph="/// Option values are any kind of value tagged with either 'Some' or 'None'. ..." />
+                <marker date="1541306264864" expanded="true" signature="33897:34884" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="34129:34336" ph="/// Next, define an interface type the represents an object to compute the shipping zone for the customer's zip code,  ..." />
+                <marker date="1541306264864" expanded="true" signature="34365:34468" ph="= ..." />
+                <marker date="1541306264864" expanded="true" signature="34474:34681" ph="/// Next, calculate a shipping zone for a customer using a calculator instance. ..." />
+                <marker date="1541306264864" expanded="true" signature="34763:34884" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="34887:35156" ph="/// Units of measure are a way to annotate primitive numeric types in a type-safe way. ..." />
+                <marker date="1541306264864" expanded="true" signature="35178:35948" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="35444:35542" ph="= ..." />
+                <marker date="1541306264864" expanded="true" signature="35951:36382" ph="/// Classes are a way of defining new object types in F##, and support standard Object-oriented constructs. ..." />
+                <marker date="1541306264864" expanded="true" signature="36405:37476" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="36414:36585" ph="/// A simple two-dimensional Vector class. ..." />
+                <marker date="1541306264864" expanded="true" signature="36604:37170" ph="dx : double, dy : double) = ..." />
+                <marker date="1541306264864" expanded="true" signature="36641:36750" ph="/// This internal field stores the length of the vector, computed when the  ..." />
+                <marker date="1541306264864" expanded="true" signature="36802:36933" ph="// 'this' specifies a name for the object's self identifier. ..." />
+                <marker date="1541306264864" expanded="true" signature="37479:37741" ph="/// Generic classes allow types to be defined with respect to a set of type parameters. ..." />
+                <marker date="1541306264864" expanded="true" signature="37771:38466" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="37801:38288" ph="(initialElement: 'T) =  ..." />
+                <marker date="1541306264864" expanded="true" signature="38028:38072" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="38469:38710" ph="/// Interfaces are object types with only 'abstract' members. ..." />
+                <marker date="1541306264864" expanded="true" signature="38740:39415" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="38814:39082" ph=") = ..." />
+                <marker date="1541306264864" expanded="true" signature="39028:39082" ph=" with ..." />
+                <marker date="1541306264864" expanded="true" signature="39089:39286" ph="/// This is an object that implements IDisposable via an Object Expression ..." />
+                <marker date="1541306264864" expanded="true" signature="39318:39415" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="39353:39415" ph=" with ..." />
+                <marker date="1541306264864" expanded="true" signature="39418:39689" ph="/// The FSharp.Core library defines a range of parallel processing functions.  Here ..." />
+                <marker date="1541306264864" expanded="true" signature="39721:40309" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="39926:40026" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="39947:40026" ph=" then 1  ..." />
+                <marker date="1541306264864" expanded="true" signature="40116:40210" ph=" =  ..." />
+                <marker date="1541306264864" expanded="true" signature="40313:40528" ph="/// Events are a common idiom for .NET programming, especially with WinForms or WPF applications. ..." />
+                <marker date="1541306264864" expanded="true" signature="40542:41408" ph=" = ..." />
+                <marker date="1541306264864" expanded="true" signature="41450:41534" ph=" =  ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/RecursiveTutorial.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-692">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <marker date="1558518962976" expanded="true" signature="54:3184" ph=" = ..." />
+                <marker date="1558518962976" expanded="true" signature="253:323" ph="= ..." />
+                <marker date="1558518962976" expanded="true" signature="263:323" ph="| HappyBirthday ..." />
+                <marker date="1558518962976" expanded="true" signature="347:520" ph="= ..." />
+                <marker date="1558518962976" expanded="true" signature="357:520" ph="| Book of Book ..." />
+                <marker date="1558518962976" expanded="true" signature="844:1305" ph=" = ..." />
+                <marker date="1558518962976" expanded="true" signature="870:1305" ph=" ..." />
+                <marker date="1558518962976" expanded="true" signature="1395:1664" ph=" = ..." />
+                <marker date="1558518962976" expanded="true" signature="1421:1664" ph=" ..." />
+                <marker date="1558518962976" expanded="true" signature="1825:2246" ph=" = ..." />
+                <marker date="1558518962976" expanded="true" signature="1928:2246" ph=" ..." />
+                <marker date="1558518962976" expanded="true" signature="2283:2622" ph=" = ..." />
+                <marker date="1558518962976" expanded="true" signature="2729:3184" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/GenericTreeType.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+              <folding>
+                <marker date="1558518863133" expanded="true" signature="52:2969" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="80:145" ph="= ..." />
+                <marker date="1558518863133" expanded="true" signature="90:145" ph="| File of FileInfo ..." />
+                <marker date="1558518863133" expanded="true" signature="300:405" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="311:405" ph="| LeafNode of 'LeafData ..." />
+                <marker date="1558518863133" expanded="true" signature="569:846" ph=" : 'r = ..." />
+                <marker date="1558518863133" expanded="true" signature="648:846" ph=" ..." />
+                <marker date="1558518863133" expanded="true" signature="750:846" ph=" -&gt; ..." />
+                <marker date="1558518863133" expanded="true" signature="927:1236" ph=" :'r= ..." />
+                <marker date="1558518863133" expanded="true" signature="995:1236" ph=" ..." />
+                <marker date="1558518863133" expanded="true" signature="1101:1236" ph=" -&gt; ..." />
+                <marker date="1558518863133" expanded="true" signature="1278:1307" ph=" =  ..." />
+                <marker date="1558518863133" expanded="true" signature="1358:1401" ph=" =  ..." />
+                <marker date="1558518863133" expanded="true" signature="1935:2124" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="1975:2010" ph=" =  ..." />
+                <marker date="1558518863133" expanded="true" signature="2051:2083" ph="=  ..." />
+                <marker date="1558518863133" expanded="true" signature="2318:2819" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="2385:2657" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="2423:2657" ph=" ..." />
+                <marker date="1558518863133" expanded="true" signature="2503:2657" ph=" -&gt; ..." />
+                <marker date="1558518863133" expanded="true" signature="2735:2762" ph=" = ..." />
+                <marker date="1558518863133" expanded="true" signature="3012:3122" ph=" = ..." />
+                <marker date="1558518863133" expanded="false" signature="3024:3054" ph="..." />
+                <marker date="1558518863133" expanded="true" signature="3090:3122" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/Recursive.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1558518962986" expanded="true" signature="43:197" ph=" = ..." />
+                <marker date="1558518962986" expanded="true" signature="224:782" ph=" =     ..." />
+                <marker date="1558518962986" expanded="true" signature="248:297" ph=" = ..." />
+                <marker date="1558518962986" expanded="true" signature="259:297" ph="| Node of Tree&lt;'a&gt; * 'a ..." />
+                <marker date="1558518962986" expanded="true" signature="379:510" ph=" :'state = ..." />
+                <marker date="1558518962986" expanded="true" signature="447:510" ph=" ..." />
+                <marker date="1558518962986" expanded="true" signature="538:706" ph=" = ..." />
+                <marker date="1558518962986" expanded="true" signature="568:669" ph=" : int = ..." />
+                <marker date="1558518962986" expanded="true" signature="602:669" ph=" ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DataAccessLayer.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1772">
               <folding>
                 <marker date="1558148839500" expanded="true" signature="46:4732" ph=" ..." />
                 <marker date="1558148839500" expanded="false" signature="52:223" ph="..." />
@@ -219,96 +414,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs">
+        <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Rop.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <marker date="1558154390451" expanded="true" signature="46:1433" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1434" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1443" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1460" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1462" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1472" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1474" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1585" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1594" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1604" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1791" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="46:1796" ph=" ..." />
-                <marker date="1558154390451" expanded="true" signature="320:447" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/Controllers.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
-              <folding>
-                <marker date="1558173938995" expanded="true" signature="51:268" ph="..." />
-                <marker date="1558173938995" expanded="true" signature="302:2456" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="331:461" ph="= ..." />
-                <marker date="1558173938995" expanded="true" signature="341:461" ph="| NotFound ..." />
-                <marker date="1558173938995" expanded="true" signature="491:1181" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="516:1181" ph=" ..." />
-                <marker date="1558173938995" expanded="true" signature="1232:1318" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="1361:1553" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="1594:1782" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="1845:2456" ph=" : IHttpActionResult = ..." />
-                <marker date="1558173938995" expanded="true" signature="1907:2456" ph=" ..." />
-                <marker date="1558173938995" expanded="true" signature="1998:2151" ph=" -&gt; ..." />
-                <marker date="1558173938995" expanded="true" signature="2317:2456" ph=" -&gt; ..." />
-                <marker date="1558173938995" expanded="true" signature="2495:4857" ph="fsDao:DataAccessLayer.ICustomerDao) as this = ..." />
-                <marker date="1558173938995" expanded="true" signature="2843:3030" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="2873:3030" ph=" then ..." />
-                <marker date="1558173938995" expanded="true" signature="3115:3196" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3246:3296" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3339:3439" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3475:3602" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3651:4090" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3677:3796" ph=" = function ..." />
-                <marker date="1558173938995" expanded="true" signature="3857:3930" ph=" = ..." />
-                <marker date="1558173938995" expanded="true" signature="3962:4090" ph=" (fun (_, msgs) -&gt; ..." />
-                <marker date="1558173938995" expanded="true" signature="3970:4076" ph=", msgs) -&gt; ..." />
-                <marker date="1558173938995" expanded="true" signature="4102:4149" ph="Route(&quot;customerE/{customerId}&quot;)&gt;] ..." />
-                <marker date="1558173938995" expanded="true" signature="4204:4440" ph=" : IHttpActionResult = ..." />
-                <marker date="1558173938995" expanded="true" signature="4465:4512" ph="Route(&quot;customerE/{customerId&quot;)&gt;] ..." />
-                <marker date="1558173938995" expanded="true" signature="4580:4857" ph=" : IHttpActionResult = ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Script.fsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <folding>
-                <marker date="1541306264866" expanded="true" signature="0:114" ph="// Learn more about F## at http://fsharp.net. See the 'F## Tutorial' project ..." />
-                <marker date="1541306264866" expanded="true" signature="264:320" ph="= ..." />
-                <marker date="1541306264866" expanded="true" signature="285:320" ph=" ..." />
-                <marker date="1541306264866" expanded="true" signature="696:775" ph=" ..." />
-                <marker date="1541306264866" expanded="true" signature="730:775" ph=" ..." />
-                <marker date="1541306264866" expanded="true" signature="778:951" ph="//exception CountingException of string*int ..." />
-                <marker date="1541306264866" expanded="true" signature="957:1059" ph=" ..." />
-                <marker date="1541306264866" expanded="true" signature="971:1059" ph=" ..." />
-                <marker date="1541306264866" expanded="true" signature="1013:1059" ph="-&gt;  ..." />
-                <marker date="1541306264866" expanded="true" signature="1075:1130" ph="= ..." />
-                <marker date="1541306264866" expanded="true" signature="1157:1220" ph="= ..." />
-                <marker date="1541306264866" expanded="true" signature="1175:1220" ph=" ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/Rop.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
               <folding>
                 <marker date="1557989264734" expanded="true" signature="34:2270" ph=" ..." />
                 <marker date="1557989264734" expanded="true" signature="72:150" ph=" = ..." />
@@ -344,6 +453,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/e2/2459d7b1/OkObjectResult.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -367,6 +485,7 @@
     <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Query.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter4/Chapter4Module.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DomainModel.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/2b/e77d1841/ContentResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter3/Chapter3Module.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Chapter6/Chapter6Module.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/Railway/SqlDatabase.fs" root0="FORCE_HIGHLIGHTING" />
@@ -376,44 +495,62 @@
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DataAccessLayer.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/SecondaryConstructors.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/User.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/99/ca4000dd/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/6f/c26d1ac4/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/ClassWithProperties.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/Constructing.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/6b/58502e0d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/Interface.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Classes/StaticClass.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59964CAE-904C-F4DA-A745-0383AE4C9659/14/d81b099e/FSharpResult`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/e2/2459d7b1/OkObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/Railway/Controllers.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Composition/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Composition/Composition.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Composition/LambdaExpression.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Composition/Recursion.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/RecursiveTutorial.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Composed.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Seamless.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/PatternMatching.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Types.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/WhyUseFsharp/Tutorial.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Exceptionhandling.fsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Classes.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Rop.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Measuretype.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Controllers.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/PropertyTests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/Partial.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DtoConverter.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Practice/ThinkingFunctionally/functionComposition.fsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DataAccessLayer.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/Game/Game.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/Recursive.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/GenericTreeType.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/Dimond.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/RecursiveTutorial.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/DimondTests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Lists.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Options.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Tuples.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Program.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/Sequences.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Program.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.expert/Tests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Tutorial/Tests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fshapr.PropertyTests/ChoseProperties.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/GenericTreeType.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.DataStructure/DiscriminatedUnions.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Modularization/Program.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceA.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Modularization/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceB.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Recursive.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/StructuralEquality.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -443,14 +580,21 @@
         <option value="$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs" />
         <option value="$PROJECT_DIR$/fsharp.Practice/Railway/Rop.fs" />
         <option value="$PROJECT_DIR$/fsharp.Practice/Railway/Controllers.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fsi" />
+        <option value="$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/Recursive/GenericTreeType.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/Recursive/Recursive.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Practice/Recursive/RecursiveTutorial.fs" />
+        <option value="$PROJECT_DIR$/fsharp.Tutorial/fsharp.Tutorial.fsproj" />
+        <option value="$PROJECT_DIR$/fsharp.Tutorial/Railway/Controllers.fs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1032" />
+    <option name="width" value="1440" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -468,16 +612,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="fsharp.Practice" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="fsharp.practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="fsharp.StructuralEquality.Tests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -490,7 +624,9 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fsharp.Tutorial/WhyUseFsharp" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -504,7 +640,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -545,12 +681,12 @@
       <workItem from="1543032857244" duration="7084000" />
       <workItem from="1543052088755" duration="1387000" />
       <workItem from="1551527584505" duration="2947000" />
-      <workItem from="1557935888424" duration="29448000" />
+      <workItem from="1557935888424" duration="59186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77613000" />
+    <option name="totallyTimeSpent" value="107351000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,29 +698,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="789" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1970181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35550788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287234" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43963134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.2925532" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.46628407" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.505698" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3287234" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.30833334" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.30703014" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -609,334 +744,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fsharp.Composition/Composition.fs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Composition/LambdaExpression.fs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Composition/Recursion.fs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/HidingThingsModule.fs" />
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/namespace1.fs" />
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter7/PuttingCodeInModule.fs" />
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="50:607" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="153:315" ph="=  ..." />
-            <marker date="1541306264858" expanded="true" signature="434:607" ph="=  ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.expert/Chapter8/Chapter8Module.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <marker date="1543036370270" expanded="true" signature="44:3265" ph="  ..." />
-            <marker date="1543036370270" expanded="false" signature="51:115" ph="..." />
-            <marker date="1543036370270" expanded="true" signature="151:713" ph=" = &quot;&quot;&quot; ..." />
-            <marker date="1543036370270" expanded="true" signature="777:1029" ph=" = ..." />
-            <marker date="1543036370270" expanded="true" signature="833:1028" ph="for customer in inputs do  ..." />
-            <marker date="1543036370270" expanded="true" signature="868:1023" ph="for order in customer.Orders do  ..." />
-            <marker date="1543036370270" expanded="true" signature="913:1023" ph="for line in order.OrderLines do  ..." />
-            <marker date="1543036370270" expanded="true" signature="1073:1746" ph=" = &quot;&quot;&quot; ..." />
-            <marker date="1543036370270" expanded="true" signature="2111:2164" ph="= ..." />
-            <marker date="1543036370270" expanded="true" signature="2117:2164" ph="| Term of int * string * int ..." />
-            <marker date="1543036370270" expanded="true" signature="2267:2337" ph="= ..." />
-            <marker date="1543036370270" expanded="true" signature="2273:2337" ph="| ID of string ..." />
-            <marker date="1543036370270" expanded="true" signature="2481:2785" ph=" = ..." />
-            <marker date="1543036370270" expanded="true" signature="2489:2784" ph="for x in tokenR.Match(s).Groups.[&quot;token&quot;].Captures do ..." />
-            <marker date="1543036370270" expanded="true" signature="2560:2758" ph=" = ..." />
-            <marker date="1543036370270" expanded="true" signature="2593:2758" ph="  ..." />
-            <marker date="1543036370270" expanded="true" signature="2919:2994" ph=" = ..." />
-            <marker date="1543036370270" expanded="true" signature="2940:2994" ph="  ..." />
-            <marker date="1543036370270" expanded="true" signature="3018:3265" ph=" = ..." />
-            <marker date="1543036370270" expanded="true" signature="3048:3265" ph="  ..." />
-            <marker date="1543036370270" expanded="true" signature="3075:3242" ph=" -&gt;  ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/PropertyTests.fs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/Game/Game.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264852" expanded="true" signature="55:131" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="73:131" ph=" =  ..." />
-            <marker date="1541306264852" expanded="true" signature="97:131" ph=" ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/Dimond.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264852" expanded="true" signature="34:414" ph=" ..." />
-            <marker date="1541306264852" expanded="true" signature="63:414" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="101:211" ph=" = ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fshapr.PropertyTests/DimondTests.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264852" expanded="true" signature="39:2938" ph=" ..." />
-            <marker date="1541306264852" expanded="false" signature="46:96" ph="..." />
-            <marker date="1541306264852" expanded="true" signature="111:217" ph="= ..." />
-            <marker date="1541306264852" expanded="true" signature="136:217" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="249:316" ph="() = ..." />
-            <marker date="1541306264852" expanded="true" signature="427:562" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="584:652" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="717:828" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="860:952" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="984:1088" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1168:1310" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1334:1349" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1444:1746" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1580:1705" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1836:2221" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="1918:2024" ph=" =  ..." />
-            <marker date="1541306264852" expanded="true" signature="2044:2191" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="2295:2449" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="2549:2938" ph=" = ..." />
-            <marker date="1541306264852" expanded="true" signature="2620:2785" ph=" = ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Lists.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="44:775" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="410:455" ph="for i in newIntList do ..." />
-            <marker date="1541306264858" expanded="true" signature="491:558" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="513:558" ph=" then 0 ..." />
-            <marker date="1541306264858" expanded="true" signature="641:712" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="663:712" ph=" ..." />
-            <marker date="1541306264858" expanded="true" signature="781:1102" ph="//    let listLength'' l= ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Options.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="46:343" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="102:142" ph=" then ..." />
-            <marker date="1541306264858" expanded="true" signature="165:304" ph=" =  ..." />
-            <marker date="1541306264858" expanded="true" signature="189:304" ph="  ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Tuples.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="45:169" ph="= ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/Sequences.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="48:615" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="297:447" ph=" =  ..." />
-            <marker date="1541306264858" expanded="true" signature="314:446" ph=" ..." />
-            <marker date="1541306264858" expanded="true" signature="370:410" ph="for i in 1..3 do ..." />
-            <marker date="1541306264858" expanded="true" signature="502:582" ph=" = ..." />
-            <marker date="1541306264858" expanded="true" signature="518:581" ph=" ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/AssemblyInfo.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264857" expanded="false" signature="50:140" ph="..." />
-            <marker date="1541306264857" expanded="true" signature="142:329" ph="// General Information about an assembly is controlled through the following  ..." />
-            <marker date="1541306264857" expanded="true" signature="342:1480" ph="AssemblyTitle(&quot;fsharp.DataStructure&quot;)&gt;] ..." />
-            <marker date="1541306264857" expanded="true" signature="672:882" ph="// Setting ComVisible to false makes the types in this assembly not visible  ..." />
-            <marker date="1541306264857" expanded="true" signature="1061:1396" ph="// Version information for an assembly consists of the following four values: ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/DiscriminatedUnions.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264858" expanded="true" signature="58:643" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="76:110" ph="=  ..." />
-            <marker date="1541306264858" expanded="true" signature="129:219" ph="=  ..." />
-            <marker date="1541306264858" expanded="true" signature="136:219" ph="| Fruit of int ..." />
-            <marker date="1541306264858" expanded="true" signature="366:435" ph=" ..." />
-            <marker date="1541306264858" expanded="true" signature="371:435" ph="| Incoming of Product*decimal ..." />
-            <marker date="1541306264858" expanded="true" signature="452:573" ph="with ..." />
-            <marker date="1541306264858" expanded="true" signature="491:573" ph="= ..." />
-            <marker date="1541306264858" expanded="true" signature="517:573" ph=" ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/Program.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264860" expanded="true" signature="0:91" ph="// Learn more about F## at http://fsharp.org ..." />
-            <marker date="1541306264860" expanded="true" signature="175:325" ph="= ..." />
-            <marker date="1541306264860" expanded="true" signature="213:325" ph=" =  ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceA.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264859" expanded="true" signature="61:154" ph="= ..." />
-            <marker date="1541306264859" expanded="true" signature="84:103" ph="= ..." />
-            <marker date="1541306264859" expanded="true" signature="135:154" ph="= ..." />
-            <marker date="1541306264859" expanded="true" signature="175:212" ph="= ..." />
-            <marker date="1541306264859" expanded="true" signature="195:212" ph="= ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/AssemblyInfo.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264859" expanded="false" signature="51:141" ph="..." />
-            <marker date="1541306264859" expanded="true" signature="143:330" ph="// General Information about an assembly is controlled through the following  ..." />
-            <marker date="1541306264859" expanded="true" signature="343:1483" ph="AssemblyTitle(&quot;fsharp.Modularization&quot;)&gt;] ..." />
-            <marker date="1541306264859" expanded="true" signature="675:885" ph="// Setting ComVisible to false makes the types in this assembly not visible  ..." />
-            <marker date="1541306264859" expanded="true" signature="1064:1399" ph="// Version information for an assembly consists of the following four values: ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceB.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264859" expanded="true" signature="98:150" ph="= ..." />
-            <marker date="1541306264859" expanded="true" signature="118:150" ph="= ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Exceptionhandling.fsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264862" expanded="true" signature="17:1357" ph=" =  ..." />
-            <marker date="1541306264862" expanded="false" signature="30:64" ph="..." />
-            <marker date="1541306264862" expanded="true" signature="88:139" ph=" =  ..." />
-            <marker date="1541306264862" expanded="true" signature="100:139" ph="| Success of 'a ..." />
-            <marker date="1541306264862" expanded="true" signature="166:259" ph="=  ..." />
-            <marker date="1541306264862" expanded="true" signature="177:259" ph="| FileNotFound of string ..." />
-            <marker date="1541306264862" expanded="true" signature="304:673" ph=" =  ..." />
-            <marker date="1541306264862" expanded="true" signature="319:673" ph=" ..." />
-            <marker date="1541306264862" expanded="true" signature="474:673" ph=" ..." />
-            <marker date="1541306264862" expanded="true" signature="716:799" ph=" =  ..." />
-            <marker date="1541306264862" expanded="true" signature="835:914" ph=" =  ..." />
-            <marker date="1541306264862" expanded="true" signature="953:1357" ph=" =  ..." />
-            <marker date="1541306264862" expanded="true" signature="1056:1357" ph=" ..." />
-            <marker date="1541306264862" expanded="true" signature="1158:1357" ph="-&gt; ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Measuretype.fsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264863" expanded="true" signature="19:778" ph=" = ..." />
-            <marker date="1541306264863" expanded="true" signature="108:155" ph=" =  ..." />
-            <marker date="1541306264863" expanded="true" signature="196:243" ph=" =  ..." />
-            <marker date="1541306264863" expanded="true" signature="421:526" ph="= ..." />
-            <marker date="1541306264863" expanded="true" signature="471:526" ph=" : float&lt;inches&gt; = ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Seamless.fsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/WhyUseFsharp/Types.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2793">
-          <folding>
-            <marker date="1541306264864" expanded="true" signature="17:109" ph=" ..." />
-            <marker date="1541306264864" expanded="true" signature="39:58" ph="= ..." />
-            <marker date="1541306264864" expanded="true" signature="90:109" ph="= ..." />
-            <marker date="1541306264864" expanded="true" signature="112:173" ph="//module Calculator2= ..." />
-            <marker date="1541306264864" expanded="true" signature="185:267" ph="// function ..." />
-            <marker date="1541306264864" expanded="true" signature="269:342" ph="//    let myInt = 5 ..." />
-            <marker date="1541306264864" expanded="true" signature="344:467" ph="//    // list ..." />
-            <marker date="1541306264864" expanded="true" signature="471:540" ph="//    // function ..." />
-            <marker date="1541306264864" expanded="true" signature="546:595" ph="//    let add x y = x + y ..." />
-            <marker date="1541306264864" expanded="true" signature="601:724" ph="//    let evens list = ..." />
-            <marker date="1541306264864" expanded="true" signature="730:806" ph="//    let sumOfSquaresTo100 =  ..." />
-            <marker date="1541306264864" expanded="true" signature="812:897" ph="//    let sumOfSquaresTo100piped =  ..." />
-            <marker date="1541306264864" expanded="true" signature="903:996" ph="//    let sumOfSquaresTo100withFun =  ..." />
-            <marker date="1541306264864" expanded="true" signature="998:1230" ph="//    //Pattern Matching ..." />
-            <marker date="1541306264864" expanded="true" signature="1232:1293" ph="//    let validValue = Some(99) ..." />
-            <marker date="1541306264864" expanded="true" signature="1295:1466" ph="//    let optionPatternMatch input = ..." />
-            <marker date="1541306264864" expanded="true" signature="1472:1751" ph="//    //Complex data type ..." />
-            <marker date="1541306264864" expanded="true" signature="1753:1879" ph="//    // Union type ..." />
-            <marker date="1541306264864" expanded="true" signature="1881:2080" ph="//    type Employee =  ..." />
-            <marker date="1541306264864" expanded="true" signature="2082:2222" ph="//    printfn &quot;Printing an int %i, a float %f, a bool %b&quot; 1 2.0 true ..." />
-            <marker date="1541306264864" expanded="true" signature="2317:2552" ph="//    type IntAndBool = {intPart:int; boolPart:bool} ..." />
-            <marker date="1541306264864" expanded="true" signature="2554:2704" ph="//    // if then else ..." />
-            <marker date="1541306264864" expanded="true" signature="2710:2819" ph="//    let switch value =  ..." />
-            <marker date="1541306264864" expanded="true" signature="2825:3007" ph="//    type Shape = ..." />
-            <marker date="1541306264864" expanded="true" signature="3009:3417" ph="//    let draw shape = ..." />
-            <marker date="1541306264864" expanded="true" signature="3419:3590" ph="//    let circle  = Circle(10) ..." />
-            <marker date="1541306264864" expanded="true" signature="3593:3717" ph="//module comparing =  ..." />
-            <marker date="1541306264864" expanded="true" signature="3719:3781" ph="//    let sum = sumOfSquares 100 ..." />
-            <marker date="1541306264864" expanded="true" signature="3783:3913" ph="//    let sum2 =  ..." />
-            <marker date="1541306264864" expanded="true" signature="3918:4491" ph="// module sorting = ..." />
-            <marker date="1541306264864" expanded="true" signature="4494:4720" ph="//    let rec quicksort2 = function ..." />
-            <marker date="1541306264864" expanded="true" signature="4774:5005" ph="// module boilerplate =  ..." />
-            <marker date="1541306264864" expanded="true" signature="5007:5237" ph="//    let sumOfOdds n = ..." />
-            <marker date="1541306264864" expanded="true" signature="5239:5563" ph="//    let alternatingSum n = ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/options.fsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264866" expanded="true" signature="29:89" ph="= ..." />
-            <marker date="1541306264866" expanded="true" signature="105:163" ph="= ..." />
-            <marker date="1541306264866" expanded="true" signature="216:287" ph="= ..." />
-            <marker date="1541306264866" expanded="true" signature="234:287" ph=" ..." />
-            <marker date="1541306264866" expanded="true" signature="308:323" ph="= ..." />
-            <marker date="1541306264866" expanded="true" signature="363:469" ph="= ..." />
-            <marker date="1541306264866" expanded="true" signature="378:469" ph=" then ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fsharp.StructuralEquality.Tests/Seq.fsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -989,57 +796,6 @@
         <state>
           <folding>
             <marker date="1541306264862" expanded="true" signature="18:175" ph=" = ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541306264861" expanded="true" signature="0:5984" ph="module Catamorphism = ..." />
-            <marker date="1541306264861" expanded="true" signature="46:103" ph="= ..." />
-            <marker date="1541306264861" expanded="true" signature="56:103" ph="| File of File ..." />
-            <marker date="1541306264861" expanded="true" signature="636:893" ph=" :'r =  ..." />
-            <marker date="1541306264861" expanded="true" signature="708:893" ph=" ..." />
-            <marker date="1541306264861" expanded="true" signature="779:893" ph=" -&gt;  ..." />
-            <marker date="1541306264861" expanded="true" signature="928:1110" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="960:989" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="1027:1069" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="1251:2043" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="1333:1368" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="1450:1552" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="1613:1638" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="1712:1966" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="1747:1966" ph=" ..." />
-            <marker date="1541306264861" expanded="true" signature="1832:1966" ph=" -&gt;  ..." />
-            <marker date="1541306264861" expanded="true" signature="2332:2398" ph="= ..." />
-            <marker date="1541306264861" expanded="true" signature="2342:2398" ph="| Bought of BoughtProduct  ..." />
-            <marker date="1541306264861" expanded="true" signature="2422:2503" ph="= { ..." />
-            <marker date="1541306264861" expanded="true" signature="2524:2608" ph="= { ..." />
-            <marker date="1541306264861" expanded="true" signature="2627:2676" ph="= { ..." />
-            <marker date="1541306264861" expanded="true" signature="2691:2754" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="2769:2833" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="2853:2915" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="2932:3109" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="2948:3109" ph=" {name=&quot;shampoo&quot;; weight=10; components= ..." />
-            <marker date="1541306264861" expanded="true" signature="2998:3107" ph=" ..." />
-            <marker date="1541306264861" expanded="true" signature="3126:3235" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="3142:3235" ph=" {name=&quot;twoPack&quot;; weight=5; components= ..." />
-            <marker date="1541306264861" expanded="true" signature="3191:3233" ph=" ..." />
-            <marker date="1541306264861" expanded="true" signature="3282:3788" ph=" :'r =  ..." />
-            <marker date="1541306264861" expanded="true" signature="3436:3482" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="3510:3788" ph=" ..." />
-            <marker date="1541306264861" expanded="true" signature="3586:3788" ph=" -&gt;  ..." />
-            <marker date="1541306264861" expanded="true" signature="3820:4497" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="3896:3925" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="4002:4421" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="4115:4146" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="4241:4323" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="4785:5983" ph=" = ..." />
-            <marker date="1541306264861" expanded="true" signature="4831:5050" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="5131:5730" ph=" =  ..." />
-            <marker date="1541306264861" expanded="true" signature="5292:5410" ph=" = ..." />
           </folding>
         </state>
       </provider>
@@ -1471,28 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1558154390451" expanded="true" signature="46:1433" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1434" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1443" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1460" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1462" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1472" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1474" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1585" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1594" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1604" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1791" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="46:1796" ph=" ..." />
-            <marker date="1558154390451" expanded="true" signature="320:447" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DomainModel.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -1556,12 +1290,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2688">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/DtoConverter.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1558154390451" expanded="true" signature="46:1433" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1434" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1443" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1460" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1462" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1472" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1474" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1585" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1594" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1604" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1791" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="46:1796" ph=" ..." />
+            <marker date="1558154390451" expanded="true" signature="320:447" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/AssemblyInfo.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264859" expanded="false" signature="51:141" ph="..." />
+            <marker date="1541306264859" expanded="true" signature="143:330" ph="// General Information about an assembly is controlled through the following  ..." />
+            <marker date="1541306264859" expanded="true" signature="343:1483" ph="AssemblyTitle(&quot;fsharp.Modularization&quot;)&gt;] ..." />
+            <marker date="1541306264859" expanded="true" signature="675:885" ph="// Setting ComVisible to false makes the types in this assembly not visible  ..." />
+            <marker date="1541306264859" expanded="true" signature="1064:1399" ph="// Version information for an assembly consists of the following four values: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/Program.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264860" expanded="true" signature="0:91" ph="// Learn more about F## at http://fsharp.org ..." />
+            <marker date="1541306264860" expanded="true" signature="175:325" ph="= ..." />
+            <marker date="1541306264860" expanded="true" signature="213:325" ph=" =  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceB.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264859" expanded="true" signature="98:150" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="118:150" ph="= ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Modularization/NamespaceA.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541306264859" expanded="true" signature="61:154" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="84:103" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="135:154" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="175:212" ph="= ..." />
+            <marker date="1541306264859" expanded="true" signature="195:212" ph="= ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.DataStructure/RecordTypes.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1558448732833" expanded="true" signature="50:607" ph="= ..." />
+            <marker date="1558448732833" expanded="true" signature="153:315" ph="=  ..." />
+            <marker date="1558448732833" expanded="true" signature="434:607" ph="=  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Catamorphism.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="119" column="38" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+          <folding>
+            <marker date="1558518863135" expanded="true" signature="49:2129" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="77:134" ph="= ..." />
+            <marker date="1558518863135" expanded="true" signature="87:134" ph="| File of File ..." />
+            <marker date="1558518863135" expanded="true" signature="728:988" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="794:988" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="877:988" ph=" -&gt; ..." />
+            <marker date="1558518863135" expanded="true" signature="1035:1202" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1358:1984" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1428:1523" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1458:1523" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="1572:1614" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1654:1744" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1802:1926" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="1833:1926" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="2165:3868" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="2185:2250" ph="= ..." />
+            <marker date="1558518863135" expanded="true" signature="2195:2250" ph="| Bought of BoughtProduct ..." />
+            <marker date="1558518863135" expanded="true" signature="2273:2353" ph="= { ..." />
+            <marker date="1558518863135" expanded="true" signature="2374:2459" ph="= { ..." />
+            <marker date="1558518863135" expanded="true" signature="2478:2530" ph="= { ..." />
+            <marker date="1558518863135" expanded="true" signature="2767:2956" ph=" = Made { name = &quot;shampoo&quot;; weight=10; components = ..." />
+            <marker date="1558518863135" expanded="true" signature="2828:2949" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="2972:3076" ph=" = Made {name=&quot;twoPack&quot;; weight=5; components= ..." />
+            <marker date="1558518863135" expanded="true" signature="3028:3074" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="3127:3430" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="3204:3430" ph=" ..." />
+            <marker date="1558518863135" expanded="true" signature="3279:3430" ph=" -&gt; ..." />
+            <marker date="1558518863135" expanded="true" signature="3473:3686" ph=" = ..." />
+            <marker date="1558518863135" expanded="true" signature="3879:4614" ph="//    let mostUsedVendor product = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/Recursive.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <marker date="1558518962986" expanded="true" signature="43:197" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="224:782" ph=" =     ..." />
+            <marker date="1558518962986" expanded="true" signature="248:297" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="259:297" ph="| Node of Tree&lt;'a&gt; * 'a ..." />
+            <marker date="1558518962986" expanded="true" signature="379:510" ph=" :'state = ..." />
+            <marker date="1558518962986" expanded="true" signature="447:510" ph=" ..." />
+            <marker date="1558518962986" expanded="true" signature="538:706" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="568:669" ph=" : int = ..." />
+            <marker date="1558518962986" expanded="true" signature="602:669" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/RecursiveTutorial.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <marker date="1558518962976" expanded="true" signature="54:3184" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="253:323" ph="= ..." />
+            <marker date="1558518962976" expanded="true" signature="263:323" ph="| HappyBirthday ..." />
+            <marker date="1558518962976" expanded="true" signature="347:520" ph="= ..." />
+            <marker date="1558518962976" expanded="true" signature="357:520" ph="| Book of Book ..." />
+            <marker date="1558518962976" expanded="true" signature="844:1305" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="870:1305" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="1395:1664" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="1421:1664" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="1825:2246" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="1928:2246" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="2283:2622" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="2729:3184" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Practice/Recursive/GenericTreeType.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <marker date="1558518863133" expanded="true" signature="52:2969" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="80:145" ph="= ..." />
+            <marker date="1558518863133" expanded="true" signature="90:145" ph="| File of FileInfo ..." />
+            <marker date="1558518863133" expanded="true" signature="300:405" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="311:405" ph="| LeafNode of 'LeafData ..." />
+            <marker date="1558518863133" expanded="true" signature="569:846" ph=" : 'r = ..." />
+            <marker date="1558518863133" expanded="true" signature="648:846" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="750:846" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="927:1236" ph=" :'r= ..." />
+            <marker date="1558518863133" expanded="true" signature="995:1236" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="1101:1236" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="1278:1307" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="1358:1401" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="1935:2124" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="1975:2010" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="2051:2083" ph="=  ..." />
+            <marker date="1558518863133" expanded="true" signature="2318:2819" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="2385:2657" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="2423:2657" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="2503:2657" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="2735:2762" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="3012:3122" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="3024:3054" ph="..." />
+            <marker date="1558518863133" expanded="true" signature="3090:3122" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Mono.framework/Versions/5.14.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="2126" column="4" selection-start-line="2126" selection-start-column="4" selection-end-line="2126" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fsharp.Practice/Railway/Controllers.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        <state relative-caret-position="618">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
           <folding>
-            <marker date="1558173938995" expanded="true" signature="51:268" ph="..." />
+            <marker date="1558173938995" expanded="false" signature="51:268" ph="..." />
             <marker date="1558173938995" expanded="true" signature="302:2456" ph=" = ..." />
             <marker date="1558173938995" expanded="true" signature="331:461" ph="= ..." />
             <marker date="1558173938995" expanded="true" signature="341:461" ph="| NotFound ..." />
@@ -1594,5 +1534,491 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/fsharp.Tutorial.fsproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Tests.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" selection-start-line="6" selection-start-column="8" selection-end-line="8" />
+          <folding>
+            <marker date="1558519028244" expanded="true" signature="12:89" ph=" ..." />
+            <marker date="1558519028244" expanded="false" signature="19:36" ph="..." />
+            <marker date="1558519028244" expanded="true" signature="65:89" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/2b/e77d1841/ContentResult.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/99/ca4000dd/ControllerBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1999" column="31" lean-forward="true" selection-start-line="1999" selection-start-column="31" selection-end-line="1999" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/6f/c26d1ac4/BadRequestObjectResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/6b/58502e0d/ObjectResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59964CAE-904C-F4DA-A745-0383AE4C9659/14/d81b099e/FSharpResult`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/e2/2459d7b1/OkObjectResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Rop.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <marker date="1557989264734" expanded="true" signature="34:2270" ph=" ..." />
+            <marker date="1557989264734" expanded="true" signature="72:150" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="79:150" ph="| Success of 'TSuccess * 'TMessage list ..." />
+            <marker date="1557989264734" expanded="true" signature="174:196" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="226:251" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="269:289" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="323:420" ph=" = function ..." />
+            <marker date="1557989264734" expanded="true" signature="455:629" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="485:521" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="552:584" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="653:808" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="682:718" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="749:772" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="833:1129" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="860:1129" ph=" ..." />
+            <marker date="1557989264734" expanded="true" signature="1176:1224" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1258:1311" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1353:1415" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1488:1647" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1517:1565" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1676:1821" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1747:1785" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1851:2062" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="1875:2062" ph=" ..." />
+            <marker date="1557989264734" expanded="true" signature="1899:1965" ph=" -&gt; ..." />
+            <marker date="1557989264734" expanded="true" signature="1995:2062" ph=" -&gt; ..." />
+            <marker date="1557989264734" expanded="true" signature="2099:2181" ph=" = ..." />
+            <marker date="1557989264734" expanded="true" signature="2123:2181" ph=" ..." />
+            <marker date="1557989264734" expanded="true" signature="2210:2270" ph=" = function ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/Controllers.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding>
+            <marker date="1558534290831" expanded="true" signature="51:286" ph="..." />
+            <marker date="1558534290831" expanded="true" signature="320:2384" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="369:499" ph="= ..." />
+            <marker date="1558534290831" expanded="true" signature="379:499" ph="| NotFound ..." />
+            <marker date="1558534290831" expanded="true" signature="529:1219" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="554:1219" ph=" ..." />
+            <marker date="1558534290831" expanded="true" signature="1270:1356" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="1399:1591" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="1632:1820" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="1885:2384" ph=" : IActionResult = ..." />
+            <marker date="1558534290831" expanded="true" signature="1943:2384" ph=" ..." />
+            <marker date="1558534290831" expanded="true" signature="2024:2137" ph=" -&gt; ..." />
+            <marker date="1558534290831" expanded="true" signature="2286:2384" ph=" -&gt; ..." />
+            <marker date="1558534290831" expanded="true" signature="2423:4645" ph="fsDao:DataAccessLayer.ICustomerDao) as this = ..." />
+            <marker date="1558534290831" expanded="true" signature="2898:2979" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3029:3092" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3135:3235" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3271:3398" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3447:3886" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3473:3592" ph=" = function ..." />
+            <marker date="1558534290831" expanded="true" signature="3653:3726" ph=" = ..." />
+            <marker date="1558534290831" expanded="true" signature="3758:3886" ph=" (fun (_, msgs) -&gt; ..." />
+            <marker date="1558534290831" expanded="true" signature="3766:3872" ph=", msgs) -&gt; ..." />
+            <marker date="1558534290831" expanded="true" signature="3898:3945" ph="Route(&quot;customerE/{customerId}&quot;)&gt;] ..." />
+            <marker date="1558534290831" expanded="true" signature="4000:4232" ph=" : IActionResult = ..." />
+            <marker date="1558534290831" expanded="true" signature="4257:4304" ph="Route(&quot;customerE/{customerId&quot;)&gt;] ..." />
+            <marker date="1558534290831" expanded="true" signature="4372:4645" ph=" : i = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DataAccessLayer.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1772">
+          <folding>
+            <marker date="1558148839500" expanded="true" signature="46:4732" ph=" ..." />
+            <marker date="1558148839500" expanded="false" signature="52:223" ph="..." />
+            <marker date="1558148839500" expanded="true" signature="243:462" ph="= ..." />
+            <marker date="1558148839500" expanded="true" signature="511:1458" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="538:1458" ph=" then ..." />
+            <marker date="1558148839500" expanded="true" signature="911:1082" ph=" = createPersonalName ..." />
+            <marker date="1558148839500" expanded="true" signature="1137:1317" ph="//        let emailOrError = createEmail dbCustomer.Email ..." />
+            <marker date="1558148839500" expanded="true" signature="1521:1910" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="1548:1910" ph=" then ..." />
+            <marker date="1558148839500" expanded="true" signature="1629:1766" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="1951:2280" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="2350:2492" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="2376:2492" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="2540:2657" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="2560:2657" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="2688:4732" ph=") = ..." />
+            <marker date="1558148839500" expanded="true" signature="2718:4732" ph=" with ..." />
+            <marker date="1558148839500" expanded="true" signature="2752:3213" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="2895:3213" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="3150:3213" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="3265:3692" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="3408:3692" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="3629:3692" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="3761:4732" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="3829:4732" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="3988:4092" ph=" = ..." />
+            <marker date="1558148839500" expanded="true" signature="4154:4652" ph=" ..." />
+            <marker date="1558148839500" expanded="true" signature="4177:4252" ph=" -&gt; ..." />
+            <marker date="1558148839500" expanded="true" signature="4311:4652" ph=" -&gt; ..." />
+            <marker date="1558148839500" expanded="true" signature="4418:4652" ph=" then ..." />
+            <marker date="1558148839500" expanded="true" signature="4669:4732" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Railway/DtoConverter.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558154390451" expanded="true" signature="86:271" ph="() = ..." />
+            <marker date="1558154390451" expanded="true" signature="308:1750" ph=" = ..." />
+            <marker date="1558154390451" expanded="true" signature="320:446" ph="..." />
+            <marker date="1558154390451" expanded="true" signature="488:882" ph=" = ..." />
+            <marker date="1558154390451" expanded="true" signature="512:882" ph=" then ..." />
+            <marker date="1558154390451" expanded="true" signature="936:1327" ph=" = ..." />
+            <marker date="1558154390451" expanded="true" signature="960:1327" ph=" then ..." />
+            <marker date="1558154390451" expanded="true" signature="1042:1177" ph=" = ..." />
+            <marker date="1558154390451" expanded="true" signature="1377:1750" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Program.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558519028247" expanded="true" signature="0:47" ph="module Program = let [&lt;EntryPoint&gt;] main _ = 0 ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/WhyUseFsharp/Tutorial.fsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142">
+          <folding>
+            <marker date="1541306264864" expanded="true" signature="0:1211" ph="// This sample will guide you through elements of the F## language. ..." />
+            <marker date="1541306264864" expanded="true" signature="1386:1898" ph="/// 3. Triple-slash comments.  These are used for documenting functions, types, and so on. ..." />
+            <marker date="1541306264864" expanded="true" signature="1901:2083" ph="// Open namespaces using the 'open' keyword. ..." />
+            <marker date="1541306264864" expanded="true" signature="2098:2402" ph="/// A module is a grouping of F## code, such as values, types, and function values.  ..." />
+            <marker date="1541306264864" expanded="true" signature="2428:3286" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="2576:2706" ph="/// This computed a new number by some arithmetic.  Numeric types are converted using ..." />
+            <marker date="1541306264864" expanded="true" signature="3289:3565" ph="/// Values in F## are immutable by default.  They cannot be changed ..." />
+            <marker date="1541306264864" expanded="true" signature="3585:4336" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="3593:3825" ph="/// Binding a value to a name via 'let' makes it immutable. ..." />
+            <marker date="1541306264864" expanded="true" signature="4046:4243" ph="// When mutating a value, use '&lt;-' to assign a new value. ..." />
+            <marker date="1541306264864" expanded="true" signature="4339:4567" ph="/// Much of F## programming consists of defining functions that transform input data to produce ..." />
+            <marker date="1541306264864" expanded="true" signature="4589:6096" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="4598:4809" ph="/// You use 'let' to define a function. This one accepts an integer argument and returns an integer.  ..." />
+            <marker date="1541306264864" expanded="true" signature="4851:4991" ph="/// Apply the function, naming the function return result using 'let'.  ..." />
+            <marker date="1541306264864" expanded="true" signature="5036:5193" ph="// This line uses '%d' to print the result as an integer. This is type-safe. ..." />
+            <marker date="1541306264864" expanded="true" signature="5571:5720" ph="/// Conditionals use if/then/elid/elif/else. ..." />
+            <marker date="1541306264864" expanded="true" signature="5746:5859" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="5770:5859" ph=" then  ..." />
+            <marker date="1541306264864" expanded="true" signature="6099:6475" ph="/// Booleans are fundamental data types in F##.  Here are some examples of Booleans and conditional logic. ..." />
+            <marker date="1541306264864" expanded="true" signature="6491:6858" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="6861:7083" ph="/// Strings are fundamental data types in F##.  Here are some examples of Strings and basic String manipulation. ..." />
+            <marker date="1541306264864" expanded="true" signature="7109:7968" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="7207:7343" ph="/// Strings can also use @ to create a verbatim string literal. ..." />
+            <marker date="1541306264864" expanded="true" signature="7733:7903" ph="/// Substrings use the indexer notation.  This line extracts the first 7 characters as a substring. ..." />
+            <marker date="1541306264864" expanded="true" signature="7971:8153" ph="/// Tuples are simple combinations of data values into a combined value. ..." />
+            <marker date="1541306264864" expanded="true" signature="8167:9836" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="8239:8451" ph="/// A function that swaps the order of two values in a tuple.  ..." />
+            <marker date="1541306264864" expanded="true" signature="8560:8661" ph="/// A tuple consisting of an integer, a string, ..." />
+            <marker date="1541306264864" expanded="true" signature="8760:8888" ph="/// A simple tuple of integers with a type annotation. ..." />
+            <marker date="1541306264864" expanded="true" signature="8929:9318" ph="/// Tuples are normally objects, but they can also be represented as structs. ..." />
+            <marker date="1541306264864" expanded="true" signature="9422:9586" ph="// Although you cannot implicitly convert between struct tuples and reference tuples, ..." />
+            <marker date="1541306264864" expanded="true" signature="9839:10398" ph="/// The F## pipe operators ('|&gt;', '&lt;|', etc.) and F## composition operators ('&gt;&gt;', '&lt;&lt;') ..." />
+            <marker date="1541306264864" expanded="true" signature="10429:14121" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="10712:10842" ph="/// Given a list of integers, it filters out the even numbers, ..." />
+            <marker date="1541306264864" expanded="true" signature="10882:11032" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="11162:11416" ph="/// A shorter way to write 'squareOddValuesAndAddOne' is to nest each ..." />
+            <marker date="1541306264864" expanded="true" signature="11462:11534" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="11672:11920" ph="/// A preferred way to write 'squareOddValuesAndAddOne' is to use F## pipe operators. ..." />
+            <marker date="1541306264864" expanded="true" signature="11968:12068" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="12210:12552" ph="/// You can shorten 'squareOddValuesAndAddOnePipeline' by moving the second `List.map` call ..." />
+            <marker date="1541306264864" expanded="true" signature="12607:12705" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="12861:13876" ph="/// Lastly, you can eliminate the need to explicitly take 'values' in as a parameter by using '&gt;&gt;' ..." />
+            <marker date="1541306264864" expanded="true" signature="13920:13979" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="14124:14469" ph="/// Lists are ordered, immutable, singly-linked lists.  They are eager in their evaluation. ..." />
+            <marker date="1541306264864" expanded="true" signature="14482:16370" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="14783:14823" ph=" = [ ..." />
+            <marker date="1541306264864" expanded="true" signature="14917:15026" ph="/// Lists can also be generated by computations. This is a list containing  ..." />
+            <marker date="1541306264864" expanded="true" signature="15043:15215" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="15056:15214" ph=" for month in 1 .. 12 do ..." />
+            <marker date="1541306264864" expanded="true" signature="15095:15213" ph="for day in 1 .. System.DateTime.DaysInMonth(2017, month) do  ..." />
+            <marker date="1541306264864" expanded="true" signature="15362:15515" ph="/// Computations can include conditionals.  This is a list containing the tuples ..." />
+            <marker date="1541306264864" expanded="true" signature="15536:15680" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="15549:15679" ph=" for i in 0 .. 7 do ..." />
+            <marker date="1541306264864" expanded="true" signature="15583:15678" ph="for j in 0 .. 7 do  ..." />
+            <marker date="1541306264864" expanded="true" signature="15637:15678" ph=" then  ..." />
+            <marker date="1541306264864" expanded="true" signature="15686:15930" ph="/// Lists can be transformed using 'List.map' and other functional programming combinators. ..." />
+            <marker date="1541306264864" expanded="true" signature="15946:16004" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="16011:16140" ph="/// There are many other list combinations. The following computes the sum of the squares of the  ..." />
+            <marker date="1541306264864" expanded="true" signature="16161:16266" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="16373:16802" ph="/// Arrays are fixed-size, mutable collections of elements of the same type. ..." />
+            <marker date="1541306264864" expanded="true" signature="16816:18478" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="17279:17391" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="17293:17389" ph=" for word in array2 do ..." />
+            <marker date="1541306264864" expanded="true" signature="17352:17388" ph=" then  ..." />
+            <marker date="1541306264864" expanded="true" signature="17716:17770" ph="for word in array4 do  ..." />
+            <marker date="1541306264864" expanded="true" signature="17776:18034" ph="// You can modify the contents of an an array element by using the left arrow assignment operator. ..." />
+            <marker date="1541306264864" expanded="true" signature="18067:18248" ph="/// You can transform arrays using 'Array.map' and other functional programming operations. ..." />
+            <marker date="1541306264864" expanded="true" signature="18276:18389" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="18481:18978" ph="/// Sequences are a logical series of elements, all of the same type.  These are a more general type than Lists and Arrays. ..." />
+            <marker date="1541306264864" expanded="true" signature="18995:20158" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="19380:19498" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="19397:19497" ph=" for word in seq2 do ..." />
+            <marker date="1541306264864" expanded="true" signature="19457:19496" ph=" then  ..." />
+            <marker date="1541306264864" expanded="true" signature="19651:19781" ph="/// This is an infinite sequence which is a random walk. ..." />
+            <marker date="1541306264864" expanded="true" signature="19806:19893" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="19822:19892" ph=" yield x ..." />
+            <marker date="1541306264864" expanded="true" signature="19999:20076" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="20161:20497" ph="/// Recursive functions can call themselves. In F##, functions are only recursive ..." />
+            <marker date="1541306264864" expanded="true" signature="20523:22106" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="20546:20691" ph="/// This example shows a recursive function that computes the factorial of an  ..." />
+            <marker date="1541306264864" expanded="true" signature="20715:20767" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="20824:21069" ph="/// Computes the greatest common factor of two integers. ..." />
+            <marker date="1541306264864" expanded="true" signature="21106:21231" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="21125:21231" ph=" then b ..." />
+            <marker date="1541306264864" expanded="true" signature="21151:21231" ph=" then greatestCommonFactor a (b - a) ..." />
+            <marker date="1541306264864" expanded="true" signature="21426:21505" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="21450:21505" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="21658:21772" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="21682:21772" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="21782:21918" ph="/// This invokes the tail recursive helper function, providing '0' as a seed accumulator. ..." />
+            <marker date="1541306264864" expanded="true" signature="22109:22369" ph="/// Records are an aggregate of named values, with optional members (such as methods). ..." />
+            <marker date="1541306264864" expanded="true" signature="22388:24784" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="22476:22562" ph="=  ..." />
+            <marker date="1541306264864" expanded="true" signature="22487:22562" ph="{ Name     : string ..." />
+            <marker date="1541306264864" expanded="true" signature="22655:22747" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="22668:22746" ph=" Name = &quot;Alf&quot;  ..." />
+            <marker date="1541306264864" expanded="true" signature="22910:23265" ph="/// This example shows how to use &quot;copy-and-update&quot; on record values. It creates  ..." />
+            <marker date="1541306264864" expanded="true" signature="23282:23377" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="23295:23376" ph=" contact1 with  ..." />
+            <marker date="1541306264864" expanded="true" signature="23383:23516" ph="/// This example shows how to write a function that processes a record value. ..." />
+            <marker date="1541306264864" expanded="true" signature="23557:23649" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="23800:24131" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="23810:23913" ph="{ Name     : string ..." />
+            <marker date="1541306264864" expanded="true" signature="24012:24131" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="24157:24287" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="24170:24286" ph=" Name = &quot;Alf&quot;  ..." />
+            <marker date="1541306264864" expanded="true" signature="24456:24655" ph="/// Records can also be represented as structs via the 'Struct' attribute. ..." />
+            <marker date="1541306264864" expanded="true" signature="24698:24784" ph="=  ..." />
+            <marker date="1541306264864" expanded="true" signature="24709:24784" ph="{ Name     : string ..." />
+            <marker date="1541306264864" expanded="true" signature="24787:25072" ph="/// Discriminated Unions (DU for short) are values which could be a number of named forms or cases. ..." />
+            <marker date="1541306264864" expanded="true" signature="25099:29909" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="25179:25253" ph="=  ..." />
+            <marker date="1541306264864" expanded="true" signature="25190:25253" ph="| Hearts  ..." />
+            <marker date="1541306264864" expanded="true" signature="25356:25757" ph="=  ..." />
+            <marker date="1541306264864" expanded="true" signature="25416:25490" ph="| Value of int ..." />
+            <marker date="1541306264864" expanded="true" signature="25604:25757" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="25621:25756" ph=" yield Ace ..." />
+            <marker date="1541306264864" expanded="true" signature="25798:25944" ph="/// This is a record type that combines a Suit and a Rank. ..." />
+            <marker date="1541306264864" expanded="true" signature="26088:26251" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="26101:26250" ph=" for suit in [ Hearts; Diamonds; Clubs; Spades] do ..." />
+            <marker date="1541306264864" expanded="true" signature="26166:26249" ph="for rank in Rank.GetAllRanks() do  ..." />
+            <marker date="1541306264864" expanded="true" signature="26345:26788" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="26371:26555" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="26404:26555" ph="  ..." />
+            <marker date="1541306264864" expanded="true" signature="26578:26746" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="26611:26746" ph="  ..." />
+            <marker date="1541306264864" expanded="true" signature="26874:26958" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="26886:26958" ph="for card in fullDeck do  ..." />
+            <marker date="1541306264864" expanded="true" signature="26964:27317" ph="// Single-case DUs are often used for domain modeling.  This can buy you extra type safety ..." />
+            <marker date="1541306264864" expanded="true" signature="27956:28171" ph="/// Disciminated Unions also support recursive definitions. ..." />
+            <marker date="1541306264864" expanded="true" signature="28188:28266" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="28199:28266" ph="| Empty ..." />
+            <marker date="1541306264864" expanded="true" signature="28272:28425" ph="/// Check if an item exists in the binary search tree. ..." />
+            <marker date="1541306264864" expanded="true" signature="28453:28686" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="28478:28686" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="28535:28686" ph=" -&gt; ..." />
+            <marker date="1541306264864" expanded="true" signature="28598:28686" ph=" then (exists item left) // Check the left subtree. ..." />
+            <marker date="1541306264864" expanded="true" signature="28720:28930" ph="/// Inserts an item in the Binary Search Tree. ..." />
+            <marker date="1541306264864" expanded="true" signature="28958:29302" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="28983:29302" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="29066:29302" ph=" -&gt; ..." />
+            <marker date="1541306264864" expanded="true" signature="29187:29302" ph=" then Node(x, insert item left, right) // Call into left subtree. ..." />
+            <marker date="1541306264864" expanded="true" signature="29336:29760" ph="/// Discriminated Unions can also be represented as structs via the 'Struct' attribute. ..." />
+            <marker date="1541306264864" expanded="true" signature="29791:29909" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="29801:29909" ph="| Circle of radius: float ..." />
+            <marker date="1541306264864" expanded="true" signature="29912:30355" ph="/// Pattern Matching is a feature of F## that allows you to utilize Patterns, ..." />
+            <marker date="1541306264864" expanded="true" signature="30378:33565" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="30450:30505" ph="= { ..." />
+            <marker date="1541306264864" expanded="true" signature="30589:30781" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="30599:30781" ph="| Engineer of engineer: Person ..." />
+            <marker date="1541306264864" expanded="true" signature="30787:30890" ph="/// Count everyone underneath the employee in the management hierarchy, ..." />
+            <marker date="1541306264864" expanded="true" signature="30931:31226" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="30960:31226" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="31233:31377" ph="/// Find all managers/executives named &quot;Dave&quot; who do not have any reports. ..." />
+            <marker date="1541306264864" expanded="true" signature="31437:31681" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="31484:31680" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="31812:31981" ph="/// You can also use the shorthand function construct for pattern matching,  ..." />
+            <marker date="1541306264864" expanded="true" signature="32011:32092" ph=" = f &gt;&gt; function ..." />
+            <marker date="1541306264864" expanded="true" signature="32232:32312" ph=" ..." />
+            <marker date="1541306264864" expanded="true" signature="32541:32860" ph="// Active Patterns are another powerful construct to use with pattern matching. ..." />
+            <marker date="1541306264864" expanded="true" signature="33121:33352" ph=" = function ..." />
+            <marker date="1541306264864" expanded="true" signature="33568:33877" ph="/// Option values are any kind of value tagged with either 'Some' or 'None'. ..." />
+            <marker date="1541306264864" expanded="true" signature="33897:34884" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="34129:34336" ph="/// Next, define an interface type the represents an object to compute the shipping zone for the customer's zip code,  ..." />
+            <marker date="1541306264864" expanded="true" signature="34365:34468" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="34474:34681" ph="/// Next, calculate a shipping zone for a customer using a calculator instance. ..." />
+            <marker date="1541306264864" expanded="true" signature="34763:34884" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="34887:35156" ph="/// Units of measure are a way to annotate primitive numeric types in a type-safe way. ..." />
+            <marker date="1541306264864" expanded="true" signature="35178:35948" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="35444:35542" ph="= ..." />
+            <marker date="1541306264864" expanded="true" signature="35951:36382" ph="/// Classes are a way of defining new object types in F##, and support standard Object-oriented constructs. ..." />
+            <marker date="1541306264864" expanded="true" signature="36405:37476" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="36414:36585" ph="/// A simple two-dimensional Vector class. ..." />
+            <marker date="1541306264864" expanded="true" signature="36604:37170" ph="dx : double, dy : double) = ..." />
+            <marker date="1541306264864" expanded="true" signature="36641:36750" ph="/// This internal field stores the length of the vector, computed when the  ..." />
+            <marker date="1541306264864" expanded="true" signature="36802:36933" ph="// 'this' specifies a name for the object's self identifier. ..." />
+            <marker date="1541306264864" expanded="true" signature="37479:37741" ph="/// Generic classes allow types to be defined with respect to a set of type parameters. ..." />
+            <marker date="1541306264864" expanded="true" signature="37771:38466" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="37801:38288" ph="(initialElement: 'T) =  ..." />
+            <marker date="1541306264864" expanded="true" signature="38028:38072" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="38469:38710" ph="/// Interfaces are object types with only 'abstract' members. ..." />
+            <marker date="1541306264864" expanded="true" signature="38740:39415" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="38814:39082" ph=") = ..." />
+            <marker date="1541306264864" expanded="true" signature="39028:39082" ph=" with ..." />
+            <marker date="1541306264864" expanded="true" signature="39089:39286" ph="/// This is an object that implements IDisposable via an Object Expression ..." />
+            <marker date="1541306264864" expanded="true" signature="39318:39415" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="39353:39415" ph=" with ..." />
+            <marker date="1541306264864" expanded="true" signature="39418:39689" ph="/// The FSharp.Core library defines a range of parallel processing functions.  Here ..." />
+            <marker date="1541306264864" expanded="true" signature="39721:40309" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="39926:40026" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="39947:40026" ph=" then 1  ..." />
+            <marker date="1541306264864" expanded="true" signature="40116:40210" ph=" =  ..." />
+            <marker date="1541306264864" expanded="true" signature="40313:40528" ph="/// Events are a common idiom for .NET programming, especially with WinForms or WPF applications. ..." />
+            <marker date="1541306264864" expanded="true" signature="40542:41408" ph=" = ..." />
+            <marker date="1541306264864" expanded="true" signature="41450:41534" ph=" =  ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/Recursive.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558518962986" expanded="true" signature="43:197" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="224:782" ph=" =     ..." />
+            <marker date="1558518962986" expanded="true" signature="248:297" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="259:297" ph="| Node of Tree&lt;'a&gt; * 'a ..." />
+            <marker date="1558518962986" expanded="true" signature="379:510" ph=" :'state = ..." />
+            <marker date="1558518962986" expanded="true" signature="447:510" ph=" ..." />
+            <marker date="1558518962986" expanded="true" signature="538:706" ph=" = ..." />
+            <marker date="1558518962986" expanded="true" signature="568:669" ph=" : int = ..." />
+            <marker date="1558518962986" expanded="true" signature="602:669" ph=" ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/RecursiveTutorial.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <marker date="1558518962976" expanded="true" signature="54:3184" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="253:323" ph="= ..." />
+            <marker date="1558518962976" expanded="true" signature="263:323" ph="| HappyBirthday ..." />
+            <marker date="1558518962976" expanded="true" signature="347:520" ph="= ..." />
+            <marker date="1558518962976" expanded="true" signature="357:520" ph="| Book of Book ..." />
+            <marker date="1558518962976" expanded="true" signature="844:1305" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="870:1305" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="1395:1664" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="1421:1664" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="1825:2246" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="1928:2246" ph=" ..." />
+            <marker date="1558518962976" expanded="true" signature="2283:2622" ph=" = ..." />
+            <marker date="1558518962976" expanded="true" signature="2729:3184" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsharp.Tutorial/Recursive/GenericTreeType.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+          <folding>
+            <marker date="1558518863133" expanded="true" signature="52:2969" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="80:145" ph="= ..." />
+            <marker date="1558518863133" expanded="true" signature="90:145" ph="| File of FileInfo ..." />
+            <marker date="1558518863133" expanded="true" signature="300:405" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="311:405" ph="| LeafNode of 'LeafData ..." />
+            <marker date="1558518863133" expanded="true" signature="569:846" ph=" : 'r = ..." />
+            <marker date="1558518863133" expanded="true" signature="648:846" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="750:846" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="927:1236" ph=" :'r= ..." />
+            <marker date="1558518863133" expanded="true" signature="995:1236" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="1101:1236" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="1278:1307" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="1358:1401" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="1935:2124" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="1975:2010" ph=" =  ..." />
+            <marker date="1558518863133" expanded="true" signature="2051:2083" ph="=  ..." />
+            <marker date="1558518863133" expanded="true" signature="2318:2819" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="2385:2657" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="2423:2657" ph=" ..." />
+            <marker date="1558518863133" expanded="true" signature="2503:2657" ph=" -&gt; ..." />
+            <marker date="1558518863133" expanded="true" signature="2735:2762" ph=" = ..." />
+            <marker date="1558518863133" expanded="true" signature="3012:3122" ph=" = ..." />
+            <marker date="1558518863133" expanded="false" signature="3024:3054" ph="..." />
+            <marker date="1558518863133" expanded="true" signature="3090:3122" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -5,6 +5,9 @@
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="fshapr.PropertyTests" t="IncludeRecursive">
@@ -99,12 +102,25 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.fs" t="Include" />
       </e>
-      <e p="fsharp.Practice" t="IncludeRecursive">
-        <e p="App.config" t="Include" />
+      <e p="fsharp.practice.sln" t="IncludeFlat" />
+      <e p="fsharp.StructuralEquality.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="fsharp.Practice.fsproj" t="IncludeRecursive" />
+        <e p="fsharp.StructuralEquality.Tests.fsproj" t="IncludeRecursive" />
+        <e p="MessageTests.fs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="options.fsx" t="Include" />
         <e p="packages.config" t="Include" />
+        <e p="Query.fsx" t="Include" />
+        <e p="Script.fsx" t="Include" />
+        <e p="Seq.fsx" t="Include" />
+        <e p="StructuralEquality.fs" t="Include" />
+        <e p="try.fs" t="Include" />
+      </e>
+      <e p="fsharp.Tutorial" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="fsharp.Tutorial.fsproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.fs" t="Include" />
         <e p="Railway" t="Include">
           <e p="Controllers.fs" t="Include" />
           <e p="DataAccessLayer.fs" t="Include" />
@@ -116,8 +132,11 @@
         </e>
         <e p="Recursive" t="Include">
           <e p="Catamorphism.fs" t="Include" />
+          <e p="GenericTreeType.fs" t="Include" />
+          <e p="Recursive.fs" t="Include" />
           <e p="RecursiveTutorial.fs" t="Include" />
         </e>
+        <e p="Tests.fs" t="Include" />
         <e p="ThinkingFunctionally" t="Include">
           <e p="Currying.fsx" t="Include" />
           <e p="functionComposition.fsx" t="Include" />
@@ -135,20 +154,6 @@
           <e p="Tutorial.fsx" t="Include" />
           <e p="Types.fs" t="Include" />
         </e>
-      </e>
-      <e p="fsharp.practice.sln" t="IncludeFlat" />
-      <e p="fsharp.StructuralEquality.Tests" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="fsharp.StructuralEquality.Tests.fsproj" t="IncludeRecursive" />
-        <e p="MessageTests.fs" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="options.fsx" t="Include" />
-        <e p="packages.config" t="Include" />
-        <e p="Query.fsx" t="Include" />
-        <e p="Script.fsx" t="Include" />
-        <e p="Seq.fsx" t="Include" />
-        <e p="StructuralEquality.fs" t="Include" />
-        <e p="try.fs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive">
         <e p="xunit.core.2.1.0/build/_desktop/xunit.execution.desktop.dll" t="Include" />
